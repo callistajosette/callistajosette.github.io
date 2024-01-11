@@ -2,11 +2,6 @@
 
 #### Technical Skills: Python, Java, C++, C, SQL, VBA, Git
 
-## Projects
-### LOCKDOWN: A Security Analysis of the 4th-Generation August WiFi Smart Lock
-
-We explored various security components of the 4th generation August smart lock. Notably, we identified that August’s choice to integrate with services like Airbnb made more viable a less-studied form of threat model – the Airbnb attacker – under which new classes of attacks were possible. Under this threat model, we identified two types of attacks that give an attacker persistent control of the lock: one that prevents the lock owner from deprovisioning the attacker’s guest access, and another that leverages several lock hardware vulnerabilities.
-
 ## Education
 B.S., Computer Science | The University of Wisconsin Madison (_May 2023_)
 
@@ -22,3 +17,8 @@ B.S., Computer Science | The University of Wisconsin Madison (_May 2023_)
 - CS 640 — Introduction to Computer Networks
 - CS 642 — Introduction to Information Security
 - CS /ECE 782 — Advanced Computer Security and Privacy
+
+## Projects
+### LOCKDOWN: A Security Analysis of the 4th-Generation August WiFi Smart Lock
+
+We explored various security components of the 4th generation August smart lock. Notably, we identified that August’s choice to integrate with services like Airbnb made more viable a less-studied form of threat model – the Airbnb attacker – under which new classes of attacks were possible. Under this threat model, we identified two types of attacks that give an attacker persistent control of the lock: one that prevents the lock owner from deprovisioning the attacker’s guest access, and another that leverages several lock hardware vulnerabilities.
