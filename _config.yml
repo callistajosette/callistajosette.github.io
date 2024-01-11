@@ -1,0 +1,17 @@
+title: Michael Walczyk
+logo: /assets/img/logo.png
+description: Software Engineer & Media Artist
+description: >
+  Software Engineer & Media Artist
+  <br>
+  <br>
+  <a href="https://www.instagram.com/mwalczyk/" target="_blank">📷 Instagram</a> 
+  <br>
+  <a href="https://github.com/mwalczyk" target="_blank">💻 Github</a>
+  <br>
+  <a href="https://www.linkedin.com/in/mike-walczyk-37267358" target="_blank">📝 LinkedIn</a>
+show_downloads: false
+google_analytics:
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-redirect-from
