@@ -38,7 +38,7 @@ $$
 so
 $$
 \begin{align*}
-T(n) & = 4(2T((n-3)) + 1) + 3 \\
+T(n) & = 4(2T(n-3) + 1) + 3 \\
 & = 8T(n-3) + 4 + 3 \\
 & \boldsymbol{= 8T(n-3) + 7}
 \end{align*}
