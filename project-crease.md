@@ -53,7 +53,7 @@ $$
 & T(n) = 8T(n-3) + 7 \\
 \end{align}$$
 
-So we can derive a general recurrence which satisfies for any $k \in \mathbb{Z}^{+}$
+So we can derive a general recurrence which satisfies for any $k \in \mathbb Z^+_0$
 
 $$T(n) = 2^{k}T(n-k) + 2^{k}-1 \\$$
 
