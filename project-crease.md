@@ -25,7 +25,7 @@ T(n-1) & = 2T((n-1)-1) + 1 \\
 & = 2T((n-2)) + 1 \\
 \end{align*}
 $$
-so
+<center>so</center>
 
 
 
