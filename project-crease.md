@@ -55,7 +55,7 @@ $$
 
 So for any $k \in \mathbb{Z}^{+}$
 
-$$T(n) = 2T(n-1) + 1 \\$$
+$$T(n) = 2^{k}T(n-k) + 2^{k}-1 \\$$
 
 
 [back](./)
