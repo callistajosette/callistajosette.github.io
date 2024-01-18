@@ -26,7 +26,12 @@ T(n-1) & = 2T((n-1)-1) + 1 \\
 \end{align*}
 $$
 <center>so</center>
-
+\begin{align*}
+T(n) & = 2T(n-1) + 1 \text{, and} \\
+T(n-1) & = 2T((n-1)-1) + 1 \\
+& = 2T((n-2)) + 1 \\
+\end{align*}
+$$
 
 
 [back](./)
