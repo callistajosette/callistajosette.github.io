@@ -19,7 +19,7 @@ A recurrence is a recursive description of a function, or in other words, a desc
 The Towers of Hanoi recurrence relation is given by: $T(n) = 2T(n-1) + 1$
 
 $$\begin{align*}
-T(n) & = 2T(n-1) + 1 \\
+T(n) & = 2T(n-1) + 1 \text{and} \\
 T(n-1) & = 2T((n-1)-1) + 1 \\
 & = 2T((n-2) + 1 \\
 \text{so}\\
