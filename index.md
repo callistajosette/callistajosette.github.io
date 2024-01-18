@@ -23,20 +23,3 @@ B.S., Computer Science | The University of Wisconsin Madison (_May 2023_)
 
 We explored various security components of the 4th generation August smart lock. Notably, we identified that August’s choice to integrate with services like Airbnb made viable a less-studied threat model – the Airbnb attacker – under which new classes of attacks were possible. Under this threat model, we identified two types of attacks that give an attacker persistent control of the lock: one that prevents the lock owner from deprovisioning the attacker’s guest access, and another that leverages several lock hardware vulnerabilities.
 </br>
-
-## Test MATH
-### MathML Direct Example
-<math display="block" class="tml-display" style="display:block math;">
-  <mrow>
-    <mn>5</mn>
-    <mo>+</mo>
-    <mfrac>
-      <mn>4</mn>
-      <mn>6</mn>
-    </mfrac>
-  </mrow>
-</math>
-
-### MathJax (LateX -> MathML)
-When $a \ne 0$, there are two solutions to $ax^2 + bx + c = 0$ and they are
-$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
