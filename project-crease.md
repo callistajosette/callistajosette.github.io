@@ -45,7 +45,7 @@ T(n) & = 4(2T(n-3) + 1) + 3 \\
 $$  
 </center>
 Then guess the form of the answer. We have: 
-$$
+$$\\
 \begin{align}
 & T(n) = 2T(n-1) + 1 \\
 & T(n) = 4T(n-2) + 3 \\
