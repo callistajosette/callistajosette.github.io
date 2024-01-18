@@ -20,7 +20,7 @@ The Towers of Hanoi recurrence relation is given by: \\(T(n) = 2T(n-1) + 1\\)
 
 $$\begin{align*}
 T(n) & = 2T(n-1) + 1 \\
-T(n-1) & = 2T(n-1-1) + 1 \\
+T(n-1) & = 2T((n-1)-1) + 1 \\
 & = 2^2T(n-2) + 2 + 1 \\
 & = 2^2[2T(n-3) + 1] + 2 + 1 \\
 & = 2^3T(n-3) + 2^2 + 2 + 1 \\
