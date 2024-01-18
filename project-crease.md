@@ -57,6 +57,7 @@ So we can derive a general recurrence which satisfies for any $k \in \mathbb Z^+
 
 $$T(n) = 2^{k}T(n-k) + 2^{k}-1 \\$$
 
+<object data="/proofs/recurrences_hanoi_general" width="1000" height="1000" type='application/pdf'></object>
 
 [back](./)
 
