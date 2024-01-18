@@ -18,7 +18,15 @@ A recurrence is a recursive description of a function, or in other words, a desc
 ### Ex. 1 Towers of Hanoi
 The Towers of Hanoi recurrence relation is given by: $T(n) = 2T(n-1) + 1 $
 
-
+$$\begin{align*}
+T(n) & = 2T(n-1) + 1 \\
+& = 2[2T(n-2) + 1] + 1 \\
+& = 2^2T(n-2) + 2 + 1 \\
+& = 2^2[2T(n-3) + 1] + 2 + 1 \\
+& = 2^3T(n-3) + 2^2 + 2 + 1 \\
+& \vdots \\
+& = 2^nT(0) + 2^{n-1} + 2^{n-2} + \ldots + 2^2 + 2 + 1
+\end{align*}$$
 
 
 
