@@ -46,11 +46,11 @@ $$
 </center>
 Then guess the form of the answer. We have: 
 $$
-\begin{enumerate}
-\item T(n) = 2T(n-1) + 1
-\item T(n) = 4T(n-2) + 3
-\item T(n) = 8T(n-3) + 7
-\end{enumerate}$$
+\begin{align}
+& T(n) = 2T(n-1) + 1
+& T(n) = 4T(n-2) + 3
+& T(n) = 8T(n-3) + 7
+\end{align}$$
 
 
 [back](./)
