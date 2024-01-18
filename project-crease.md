@@ -15,7 +15,7 @@ layout: default
 A recurrence is a recursive description of a function, or in other words, a description of a function in terms of itself. Like all recursive structures, a recurrence consists of one or more base cases and one or more recursive cases. We say that a particular function satisfies a recurrence, or is the solution to a recurrence if each of the statements of a recurrence holds. Closed-form recurrence solutions are particularly valuable for bounds analysis 
 
 ## Unrolling the Recurrence
-### Towers of Hanoi
+### Ex. 1 Towers of Hanoi
 The Towers of Hanoi recurrence relation is given by: $T(n) = 2T(n-1) + 1 $
 
 
