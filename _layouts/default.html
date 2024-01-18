@@ -55,7 +55,9 @@
       </header>
       <section>
 
+      {% unless page.url == "/" %}
       {% include breadcrumbs.html %} </br>
+      {% endunless %}
       {{ content }}
 
       </section>
