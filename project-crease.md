@@ -2,11 +2,12 @@
 layout: default
 ---
 
-# Crease
-📐 A web-based crease pattern editor for origami.
+# Solving Recurrences
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/mwalczyk/crease/master/assets/screenshots/bird_base.png" alt="screenshot" width="400" height="auto"/>
+  1. Guess and Check
+  2. Unrolling the Recurrence
+  3. Recurrence Trees
 </p>
 
 ## Description
