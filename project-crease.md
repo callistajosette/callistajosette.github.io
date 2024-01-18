@@ -25,15 +25,6 @@ T(n-1) & = 2T((n-1)-1) + 1 \\
 & = 2T((n-2)) + 1 \\
 \end{align*}
 \text{so}\\
-\begin{align*}
-T(n) & = 2(2T((n-2)) + 1) + 1\\
-& = 4T(n-2) + 2 + 1\\
-& = 4T(n-2) + 3
-\end{align*}
-\begin{align*}
-T(n-2) & = 2T((n-2)-1) + 1 \\
-& = 2T((n-3)) + 1 \\
-\end{align*}
 $$
 
 
