@@ -53,6 +53,10 @@ $$
 & T(n) = 8T(n-3) + 7 \\
 \end{align}$$
 
+So for any $k \in \mathbb{Z}^{+}$
+
+$$T(n) = 2T(n-1) + 1 \\$$
+
 
 [back](./)
 
