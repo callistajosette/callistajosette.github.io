@@ -43,11 +43,12 @@ T(n) & = 4(2T(n-3) + 1) + 3 \\
 & \boldsymbol{= 8T(n-3) + 7}
 \end{align*}
 $$  
+</center>
 Then guess the form of the answer. We have: 
 $$ 1) T(n) = 2T(n-1) + 1 \\
    2) T(n) = 4T(n-2) + 3 \\
    3) T(n) = 8T(n-3) + 7 \\$$
-</center>
+
 
 [back](./)
 
