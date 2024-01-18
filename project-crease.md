@@ -47,9 +47,9 @@ $$
 Then guess the form of the answer. We have: 
 $$
 \begin{align}
-& T(n) = 2T(n-1) + 1
-& T(n) = 4T(n-2) + 3
-& T(n) = 8T(n-3) + 7
+& T(n) = 2T(n-1) + 1 \\
+& T(n) = 4T(n-2) + 3 \\
+& T(n) = 8T(n-3) + 7 \\
 \end{align}$$
 
 
