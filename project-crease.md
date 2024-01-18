@@ -35,6 +35,14 @@ T(n-2) & = 2T((n-2)-1) + 1 \\
 & = 2T((n-3)) + 1 \\
 \end{align*}
 $$
+so
+$$
+\begin{align*}
+T(n) & = 4(2T((n-3)) + 1) + 3 \\
+& = 8T(n-3) + 4 + 3 \\
+& \boldsymbol{= 8T(n-3) + 7}
+\end{align*}
+$$  
 </center>
 
 [back](./)
