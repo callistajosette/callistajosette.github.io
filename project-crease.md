@@ -53,7 +53,7 @@ $$
 & T(n) = 8T(n-3) + 7 \\
 \end{align}$$
 
-So for any $k \in \mathbb{Z}^{+}$
+So for any $k \in \mathbb{Z}^{+}$, the following general recurrence satisfies
 
 $$T(n) = 2^{k}T(n-k) + 2^{k}-1 \\$$
 
