@@ -60,12 +60,12 @@ $$T(n) = 2^{k}T(n-k) + 2^{k}-1 \\$$
 Then as we continue to unroll the recurrence, unrolling the recurrence say $k \rightarrow n$...
 
 $$
-\begin{align}
+\begin{align*}
 T(n) = 2^{n}T(n-n) + 2^{n}-1 \\
 & = 2^{n}T(0) + 2^{n}-1 \\
 & = 0 + 2^{n}-1 \\
 & = 2^{n}-1 \\
-\end{align}
+\end{align*}
 $$
 
 We derive a closed form solution to the recurrence relation.
