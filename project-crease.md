@@ -70,7 +70,8 @@ $$
 
 We derive a closed form solution to the recurrence relation.
 
-$\boxed{x+y}$
+<div style="border: 5px solid #FF0000; width: 100%;">$\boxed{x+y}$</div>
+
 
 [back](./)
 
