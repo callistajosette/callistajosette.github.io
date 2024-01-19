@@ -70,7 +70,12 @@ $$
 
 We derive a closed form solution to the recurrence relation.
 
-<div style="border: 5px solid #FF0000; width: 100%;">$\boxed{x+y}$</div>
+<div style="border: 1px solid #000; width: 100%;">
+  $$\text{Proof by Induction} \\
+  $$
+
+
+</div>
 
 
 [back](./)
