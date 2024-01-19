@@ -70,9 +70,5 @@ $$
 
 We derive a closed form solution to the recurrence relation.
 
-<div style="box-shadow: 10px 16px hotpink;">
-  test
-</div>
-
 [back](./)
 
