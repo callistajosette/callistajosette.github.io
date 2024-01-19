@@ -61,7 +61,7 @@ Then as we continue to unroll the recurrence, unrolling the recurrence say $k \r
 
 $$
 \begin{align*}
-T(n) = 2^{n}T(n-n) + 2^{n}-1 \\
+T(n) & = 2^{n}T(n-n) + 2^{n}-1 \\
 & = 2^{n}T(0) + 2^{n}-1 \\
 & = 0 + 2^{n}-1 \\
 & = 2^{n}-1 \\
