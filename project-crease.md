@@ -70,7 +70,7 @@ $$
 
 We derive a closed form solution to the recurrence relation.
 
-$\bbox[red]{x+y}$
+$\boxed{x+y}$
 
 [back](./)
 
