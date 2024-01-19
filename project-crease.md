@@ -70,7 +70,7 @@ $$
 
 We derive a closed form solution to the recurrence relation.
 
-<div style="border: 1px solid #000; width: 100%;">
+<div style=" width: 100%; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); transition: 0.3s;">
 Proof by Induction
 We will prove by induction that the derived closed form solution $T(n)=2^{n}-1$ satisfies the recurrence relation $T(n)= 2^{k}T(n-k)+2^{k}-1$.
 
