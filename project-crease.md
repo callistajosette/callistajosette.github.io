@@ -78,11 +78,6 @@ Basis
 base case: n=0, 1
 0: trivial case, 0 discs requires 0 moves to solve
 1: T(1)=2^{1}
-  
-  $$
-  
-  $$
-
 
 </div>
 
