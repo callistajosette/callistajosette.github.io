@@ -57,7 +57,7 @@ So we can derive a general recurrence which satisfies for any $k \in \mathbb Z^+
 
 $$T(n) = 2^{k}T(n-k) + 2^{k}-1 \\$$
 
-Then as we continue to unroll the recurrence, say $k \rightarrow n$...
+Then as we continue to unroll the recurrence, unrolling the recurrence say $k \rightarrow n$...
 
 $$
 \begin{align}
