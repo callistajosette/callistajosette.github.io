@@ -70,15 +70,8 @@ $$
 
 We derive a closed form solution to the recurrence relation.
 
+<!-- cool box shadow possibly use for callouts -->
 <div style=" width: 100%; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); transition: 0.3s;">
-Proof by Induction
-We will prove by induction that the derived closed form solution $T(n)=2^{n}-1$ satisfies the recurrence relation $T(n)= 2^{k}T(n-k)+2^{k}-1$.
-
-Basis
-base case: n=0, 1
-0: trivial case, 0 discs requires 0 moves to solve
-1: T(1)=2^{1}
-
 </div>
 
 ## Test
@@ -87,7 +80,13 @@ base case: n=0, 1
     <input type="checkbox" class="accordion-input" id="section1">
     <label class="accordion-header" for="section1">Let's proove by induction that our derived closed form solution is equivalent to the general recurrence we found earlier</label>
     <div class="accordion-content">
-      <p>Content for section 1...</p>
+      <p>Proof by Induction
+      We will prove by induction that the derived closed form solution $T(n)=2^{n}-1$ satisfies the recurrence relation $T(n)= 2^{k}T(n-k)+2^{k}-1$.
+
+Basis
+base case: n=0, 1
+0: trivial case, 0 discs requires 0 moves to solve
+1: T(1)=2^{1}</p>
     </div>
   </div>
   <!-- Add more accordion items as needed -->
