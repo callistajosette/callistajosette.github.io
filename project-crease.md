@@ -69,8 +69,7 @@ $$T(n) = 2^{k}T(n-k) + 2^{k}-1 \\$$
       When k=0, P(n) trivially holds; since we have unrolled the recurrence 0 times, we do not enter the generator<br><br>
       
       <u>Indutive Step</u><br>
-      Inductive hypothesis<br>
-      Assume T(n)=2^{k-1}T(n-(k-1))+2^{k-1}-1 is the result when we unroll T(n) k-1 times
+      Assume T(n)=2^{k-1}T(n-(k-1))+2^{k-1}-1 is the result when we unroll T(n) k-1 times<br>
       Wts. T(n)=2^{k}T(n-k)+2^{k}-1 is the result if we unroll T(n) k times<br><br>
       
       We have:
