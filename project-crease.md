@@ -63,9 +63,9 @@ $$T(n) = 2^{k}T(n-k) + 2^{k}-1 \\$$
     <label class="accordion-header" for="1-1">+ Let's prove by induction that this holds for all $k \in \mathbb Z^+_0$</label>
     <div class="accordion-content">
       <p>
-      We will prove by induction P(n): unrolling the Hanoi recurrence k times satisfies
+      We will prove by induction P(n): unrolling the Hanoi recurrence k times satisfies <br>
         
-      <u>Basis</u>
+      <u>Basis</u><br>
       When k=0, P(n) trivially holds; since we have unrolled the recurrence 0 times, we do not enter the generator
       
       <u>Indutive Step</u>
