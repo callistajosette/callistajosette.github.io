@@ -63,9 +63,10 @@ $$T(n) = 2^{k}T(n-k) + 2^{k}-1 \\$$
     <label class="accordion-header" for="1-1">+ Let's prove by induction that this holds for all $k \in \mathbb Z^+_0$</label>
     <div class="accordion-content">
       <p>
-      <u>Basis</u>  
-      base case: k=0  
-      T(n)=2T(n-1)+1 by defn.
+      We will prove by induction P(n): unrolling the Hanoi recurrence k times satisfies 
+      <u>Basis</u> 
+      We will show P(k=0) holds
+      When k=0, we have not unrolled the recurrence so T(n)=2T(n-1)+1 by defn.
       
       Indutive Step
       Inductive hypothesis
