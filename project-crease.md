@@ -62,8 +62,21 @@ $$T(n) = 2^{k}T(n-k) + 2^{k}-1 \\$$
     <input type="checkbox" class="accordion-input" id="1-1">
     <label class="accordion-header" for="1-1">+ Let's prove that our derived general recurrence is equivalent to $2T(n-1) + 1$</label>
     <div class="accordion-content">
-      <p>Proof by Induction
-      We will prove by induction that</p>
+      <p>
+      base case
+      k=0
+      T(n)=2T(n-1)+1 by defn.
+      
+      Indutive Step
+      Inductive hypothesis
+      Assume T(n)=2^{k-1}T(n-(k-1))+2^{k-1}-1 is the result when we unroll T(n) k-1 times
+      Wts. T(n)=2^{k}T(n-k)+2^{k}-1 is the result if we unroll T(n) k times
+      
+      We have:
+      2^{k-1}(2T(n-k)+1)+2^{k-1}-1
+      2^{k}(T(n-k)+1)+2^{k-1}-1
+      2^{k}(T(n-k))+2^{k-1}
+      </p>
     </div>
   </div>
 </div>
