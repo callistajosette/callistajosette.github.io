@@ -60,16 +60,11 @@ td {
   display: block;
 }
 
-.accordion-content-container {
-  transition: max-height 0.3s ease-out;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
 .accordion-content {
   display: none;
   padding: 10px;
 }
 
-.accordion-input:checked + .accordion-header + .accordion-content + .accordion-content-container  {
+.accordion-input:checked + .accordion-header + .accordion-content {
   display: block;
 }
