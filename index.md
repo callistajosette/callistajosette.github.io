@@ -1,4 +1,4 @@
-# Software Engineer & Security Analyst
+# Software Engineer & Aspiring Security Analyst
 
 #### Technical Skills: Python, Java, C++, C, SQL, VBA, Git
 
