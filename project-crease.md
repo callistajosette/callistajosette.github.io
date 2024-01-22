@@ -74,7 +74,6 @@ We derive a closed form solution to the recurrence relation.
 <div style=" width: 100%; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); transition: 0.3s;">
 </div>
 
-## Test
 <div class="accordion">
   <div class="accordion-item">
     <input type="checkbox" class="accordion-input" id="section1">
