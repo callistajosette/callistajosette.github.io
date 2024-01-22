@@ -10,7 +10,8 @@
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
-    
+
+    <!-- include math writing functionality -->
     <script id="MathJax-script" async
       src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
     </script>
@@ -21,10 +22,13 @@
       }
     };
     </script>
-
     <script type="text/x-mathjax-config">
       MathJax.Hub.Config({ TeX: { extensions: ["AMSmath.js"] }});
     </script>
+
+    <!-- try include accordions -->
+    <script src="{{ "/assets/js/tab-accordion.js" | relative_url }}"></script>
+    
   </head>
   <body>
     <div class="wrapper">
@@ -69,7 +73,6 @@
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-    <script src="{{ "/assets/js/tab-accordion.js" | relative_url }}"></script>
     {% if site.google_analytics %}
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
