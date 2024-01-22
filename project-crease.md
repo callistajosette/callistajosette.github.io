@@ -81,6 +81,27 @@ base case: n=0, 1
 
 </div>
 
+## Test
+<h2>Accordion multi select</h2>
+		<p>This accordion can have more than one open at a time.</p>
+		
+		<div class="accordion always multi">
+			<h3 class="toggle">First Heading</h3>
+			<div class="content">
+				<p>Content for the first accordion. This can include multiple paragraphs, nested headings, lists, images and even additional tabs and accordions.</p>
+			</div>
+			
+			<h3 class="toggle">Second Heading</h3>
+			<div class="content">
+				<p>Content for the second accordion. Again, this content can include multiple paragraphs, nested headings, lists, tables, images and even additional tabs and accordions.</p>
+			</div>
+			
+			<h3 class="toggle">Third Heading</h3>
+			<div class="content">
+				<p>Content for the third accordion.
+				</p>
+			</div>
+		</div>
 
 [back](./)
 
