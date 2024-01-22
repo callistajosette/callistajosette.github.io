@@ -66,11 +66,9 @@ $$T(n) = 2^{k}T(n-k) + 2^{k}-1 \\$$
       We will prove by induction P(n): unrolling the Hanoi recurrence k times satisfies</br>
         
       <u>Basis</u> </br>
-      We will show P(k=0) holds</br>
-      When k=0, we have unrolled the recurrence 0 times so T(n)=2T(n-1)+1 by defn.</br>
+      When k=0, P(n) trivially holds; since we have unrolled the recurrence 0 times, we do not enter the generator
       
-      
-      Indutive Step
+      <u>Indutive Step</u>
       Inductive hypothesis
       Assume T(n)=2^{k-1}T(n-(k-1))+2^{k-1}-1 is the result when we unroll T(n) k-1 times
       Wts. T(n)=2^{k}T(n-k)+2^{k}-1 is the result if we unroll T(n) k times
