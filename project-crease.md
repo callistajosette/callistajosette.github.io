@@ -78,7 +78,6 @@ We derive a closed form solution to the recurrence relation.
   <div class="accordion-item">
     <input type="checkbox" class="accordion-input" id="section1">
     <label class="accordion-header" for="section1">+ Let's prove by induction that our derived closed form solution is equivalent to the general recurrence we found earlier</label>
-    <!--<div class="accordion-content-container">-->
     <div class="accordion-content">
       <p>Proof by Induction
       We will prove by induction that the derived closed form solution $T(n)=2^{n}-1$ satisfies the recurrence relation $T(n)= 2^{k}T(n-k)+2^{k}-1$.
@@ -89,7 +88,6 @@ base case: n=0, 1
 1: T(1)=2^{1}</p>
     </div>
     </div>
-  <!--</div>-->
   <!-- Add more accordion items as needed -->
 </div>
 
