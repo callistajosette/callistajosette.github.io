@@ -63,7 +63,7 @@ $$T(n) = 2^{k}T(n-k) + 2^{k}-1 \\$$
     <label class="accordion-header" for="1-1">+ Let's prove by induction that this holds for all $k \in \mathbb Z^+_0$</label>
     <div class="accordion-content">
       <p>
-      base case
+      <u>Basis</u>
       k=0
       T(n)=2T(n-1)+1 by defn.
       
