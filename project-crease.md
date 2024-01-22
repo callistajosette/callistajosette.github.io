@@ -82,26 +82,25 @@ base case: n=0, 1
 </div>
 
 ## Test
-<h2>Accordion multi select</h2>
-		<p>This accordion can have more than one open at a time.</p>
-		
-		<div class="accordion always multi">
-			<h3 class="toggle">First Heading</h3>
-			<div class="content">
-				<p>Content for the first accordion. This can include multiple paragraphs, nested headings, lists, images and even additional tabs and accordions.</p>
-			</div>
-			
-			<h3 class="toggle">Second Heading</h3>
-			<div class="content">
-				<p>Content for the second accordion. Again, this content can include multiple paragraphs, nested headings, lists, tables, images and even additional tabs and accordions.</p>
-			</div>
-			
-			<h3 class="toggle">Third Heading</h3>
-			<div class="content">
-				<p>Content for the third accordion.
-				</p>
-			</div>
-		</div>
+<div id="accordion">
+  <div class="card">
+    <div class="card-header" id="section1">
+      <h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+          Section 1
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapse1" class="collapse show" aria-labelledby="section1" data-parent="#accordion">
+      <div class="card-body">
+        Content for Section 1...
+      </div>
+    </div>
+  </div>
+
+  <!-- Add more accordion sections as needed -->
+</div>
 
 [back](./)
 
