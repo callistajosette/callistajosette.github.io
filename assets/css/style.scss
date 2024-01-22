@@ -39,3 +39,32 @@ table {
 td {
     border: none;
 }
+
+//try add accordion styling
+.accordion {
+  width: 100%;
+}
+
+.accordion-item {
+  margin-bottom: 10px;
+}
+
+.accordion-input {
+  display: none;
+}
+
+.accordion-header {
+  background-color: #f1f1f1;
+  padding: 10px;
+  cursor: pointer;
+  display: block;
+}
+
+.accordion-content {
+  display: none;
+  padding: 10px;
+}
+
+.accordion-input:checked + .accordion-header + .accordion-content {
+  display: block;
+}
