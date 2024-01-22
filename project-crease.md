@@ -59,7 +59,7 @@ $$T(n) = 2^{k}T(n-k) + 2^{k}-1 \\$$
 
 <div class="accordion" id="accordion1">
   <div class="accordion-item">
-    <input type="checkbox" class="accordion-input" id="section1">
+    <input type="checkbox" class="accordion-input" id="1-1">
     <label class="accordion-header" for="section1">+ Let's prove that our derived general recurrence is equivalent to $2T(n-1) + 1$</label>
     <div class="accordion-content">
       <p>Proof by Induction
@@ -83,7 +83,7 @@ We derive a closed form solution to the recurrence relation.
 
 <div class="accordion" id="accordion2">
   <div class="accordion-item">
-    <input type="checkbox" class="accordion-input" id="section1">
+    <input type="checkbox" class="accordion-input" id="2-1">
     <label class="accordion-header" for="section1">+ Let's prove by induction that our derived closed form solution is equivalent to the general recurrence we found earlier</label>
     <div class="accordion-content">
       <p>Proof by Induction
