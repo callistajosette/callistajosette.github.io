@@ -60,7 +60,7 @@ $$T(n) = 2^{k}T(n-k) + 2^{k}-1 \\$$
 <div class="accordion" id="accordion1">
   <div class="accordion-item">
     <input type="checkbox" class="accordion-input" id="1-1">
-    <label class="accordion-header" for="section1">+ Let's prove that our derived general recurrence is equivalent to $2T(n-1) + 1$</label>
+    <label class="accordion-header" for="1-1">+ Let's prove that our derived general recurrence is equivalent to $2T(n-1) + 1$</label>
     <div class="accordion-content">
       <p>Proof by Induction
       We will prove by induction that</p>
