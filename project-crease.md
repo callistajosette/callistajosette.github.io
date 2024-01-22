@@ -53,7 +53,7 @@ $$
 & T(n) = 8T(n-3) + 7 \\
 \end{align}$$
 
-So we can derive a general recurrence which satisfies for any $k \in \mathbb Z^+_0$
+So it looks like unrolling the initial Hanoi recurrence k times for $k \in \mathbb Z^+_0$, will give us the new recurrence
 
 $$T(n) = 2^{k}T(n-k) + 2^{k}-1 \\$$
 
