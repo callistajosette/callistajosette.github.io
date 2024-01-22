@@ -57,6 +57,17 @@ So we can derive a general recurrence which satisfies for any $k \in \mathbb Z^+
 
 $$T(n) = 2^{k}T(n-k) + 2^{k}-1 \\$$
 
+<div class="accordion">
+  <div class="accordion-item">
+    <input type="checkbox" class="accordion-input" id="section1">
+    <label class="accordion-header" for="section1">+ Let's prove that our derived general recurrence is equivalent to $2T(n-1) + 1$</label>
+    <div class="accordion-content">
+      <p>Proof by Induction
+      We will prove by induction that</p>
+    </div>
+  </div>
+</div>
+
 Then as we continue to unroll the recurrence, unrolling the recurrence say $k \rightarrow n$ times...
 
 $$
@@ -70,10 +81,6 @@ $$
 
 We derive a closed form solution to the recurrence relation.
 
-<!-- cool box shadow possibly use for callouts -->
-<div style=" width: 100%; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); transition: 0.3s;">
-</div>
-
 <div class="accordion">
   <div class="accordion-item">
     <input type="checkbox" class="accordion-input" id="section1">
@@ -81,14 +88,12 @@ We derive a closed form solution to the recurrence relation.
     <div class="accordion-content">
       <p>Proof by Induction
       We will prove by induction that the derived closed form solution $T(n)=2^{n}-1$ satisfies the recurrence relation $T(n)= 2^{k}T(n-k)+2^{k}-1$.
-
-Basis
-base case: n=0, 1
-0: trivial case, 0 discs requires 0 moves to solve
-1: T(1)=2^{1}</p>
+      Basis
+      base case: n=0, 1
+      0: trivial case, 0 discs requires 0 moves to solve
+      1: T(1)=2^{1}</p>
     </div>
-    </div>
-  <!-- Add more accordion items as needed -->
+  </div>
 </div>
 
 
