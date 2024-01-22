@@ -85,7 +85,7 @@ base case: n=0, 1
 <div class="accordion">
   <div class="accordion-item">
     <input type="checkbox" class="accordion-input" id="section1">
-    <label class="accordion-header" for="section1">Section 1</label>
+    <label class="accordion-header" for="section1">Let's proove by induction that our derived closed form solution is equivalent to the general recurrence we found earlier</label>
     <div class="accordion-content">
       <p>Content for section 1...</p>
     </div>
