@@ -98,7 +98,7 @@ $$
 We derive a closed form solution to the recurrence relation.
 
 ### Ex. 2 Another Recurrence
-Consider the recurrence relation given by $T(1) = 1$, $T(n) = 2T(n/2) + n^{2}$
+Consider the recurrence relation given by $T(1) = 1$, $T(n) = 2T(/frac{n}{2}) + n^{2}$
 <center>
 $$
 \begin{align*}
@@ -132,42 +132,6 @@ $$
 So it looks like unrolling the initial recurrence k times for $k \in \mathbb Z^+_0$, will give us a new recurrence
 
 $$T(n) = 2^{k}T(n/2^{k}) + \sum_{i=0}^{k-1} n^{2}/2^{i} \\$$
-
-## Test
-Consider the recurrence relation given by $T(1) = 1$, $T(n) = 2T(n/2) + n^{2}$
-<center>
-$$
-\begin{align*}
-\boldsymbol{T(n)} & = \boldsymbol{2T(n/2) + n^{2}} \text{, and} \\
-T(n/2) & = 2T((n/2)/2) + (n/2)^{2} \\
-& = 2T(n/2*1/2) + (n/2)^{2} \\
-& = 2T(n/2^{2}) + (n/2)^{2} \\
-\end{align*}
-$$
-so
-$$
-\begin{align*}
-T(n) & = 2(2T(n/2^{2})+(n/2)^{2}) + n^{2} \\
-& = 2^{2}T(n/2^{2})+2(n/2)^{2} + n^{2} \\
-& = 2^{2}T(n/2^{2})+2\frac{1}{2}\frac{1}{2}n^{2} + n^{2} \\
-& \boldsymbol{= 2^{2}T(n/2^{2})+(\frac{n^{2}}{2}) + n^{2}} \text{, and} \\
-T(n/2^{2}) & = 2T((n/2^{2})/2) + (\frac{n}{2^{2}})^{2} \\
-& = 2T((n/2^{3})) + (\frac{n}{2^{2}})^{2} \\
-\end{align*}
-$$
-so
-$$
-\begin{align*}
-T(n) & = 2(2^{2}T(n/2^{3})+(\frac{n}{2})^{2})+ (\frac{n^{2}}{2}) + n^{2} \\
-& = 2^{3}T(n/2^{3})+2\frac{1}{2}\frac{1}{2}\frac{1}{2}\frac{1}{2}n^{2}+ (\frac{n^{2}}{2}) + n^{2} \\
-& \boldsymbol{= 2^{3}T(n/2^{3})+(\frac{n^{2}}{2^{2}})+ (\frac{n^{2}}{2}) + n^{2}}
-\end{align*}
-$$  
-</center>
-So it looks like unrolling the initial recurrence k times for $k \in \mathbb Z^+_0$, will give us a new recurrence
-
-$$T(n) = 2^{k}T(n/2^{k}) + \sum_{i=0}^{k-1} \frac{n^{2}}{2^{i}} \\$$
-
 
 ## Credits
 These notes were compiled from various freely accessible online sources, most notably course handouts provided to students at the University of Washington, and the University of Illinois Urbana-Champaign.
