@@ -63,7 +63,7 @@ $$T(n) = 2^{k}T(n-k) + 2^{k}-1 \\$$
     <label class="accordion-header" for="1-1">+ Let's prove by induction that this holds for all $k \in \mathbb Z^+_0$</label>
     <div class="accordion-content">
       <p>
-      We will prove by induction P(n): unrolling the Hanoi recurrence $T(n) = 2T(n-1) + 1$ $k$ times yields T(n) = 2^{k}T(n-k) + 2^{k}-1 for all $k \in \mathbb Z^+_0$<br><br> 
+      We will prove by induction P(n): unrolling the Hanoi recurrence $T(n) = 2T(n-1) + 1$ k times yields $T(n) = 2^{k}T(n-k) + 2^{k}-1$ for all $k \in \mathbb Z^+_0$<br><br> 
       <u>Basis:</u> We will show $P(k=0)$ holds<br>
       $P(k=0)$ trivially holds; since we have unrolled the recurrence 0 times, we do not enter the generator<br><br>
       <u>Inductive Step:</u> We will show $P(k \geq 0)$ holds<br>
