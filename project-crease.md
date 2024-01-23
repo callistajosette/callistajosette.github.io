@@ -75,7 +75,7 @@ $$T(n) = 2^{k}T(n-k) + 2^{k}-1 \\$$
       Then by defn. of unrolling we derive from $P(k-1)$...<br>
       $T(n)=2^{k-1}(2T(n-k)+1)+2^{k-1}-1$, <br>
       $T(n)=2^{k}(T(n-k)+1)+2^{k-1}-1$<br>
-      $T(n)=2^{k}(T(n-k))+2^{k-1}$<br>
+      $T(n)=2^{k}(T(n-k))+2^{k-1}$
       $$\tag*{$\blacksquare$}$$
       </p>
     </div>
