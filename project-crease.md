@@ -56,10 +56,10 @@ So it looks like unrolling the initial Hanoi recurrence k times for $k \in \math
 
 $$T(n) = 2^{k}T(n-k) + 2^{k}-1 \\$$
 
-<div class="accordion" id="accordion1">
+<div class="accordion">
   <div class="accordion-item">
-    <input type="checkbox" class="accordion-input" id="1-1">
-    <label class="accordion-header" for="1-1">+ Let's prove by induction that this holds for all $k \in \mathbb Z^+_0$</label>
+    <input type="checkbox" class="accordion-input" id="p1-1">
+    <label class="accordion-header" for="p1-1">+ Let's prove by induction that this holds for all $k \in \mathbb Z^+_0$</label>
     <div class="accordion-content">
       <p>
       We will prove by induction P(n): unrolling the Hanoi recurrence, $T(n) = 2T(n-1) + 1$, k times yields $T(n) = 2^{k}T(n-k) + 2^{k}-1$ for all $k \in \mathbb Z^+_0$<br><br> 
@@ -134,10 +134,10 @@ So it looks like unrolling the initial recurrence k times for $k \in \mathbb Z^+
 $$T(n) = 2^{k}T(\frac{n}{2^{k}}) + \sum_{i=0}^{k-1} \frac{n^{2}}{2^{i}} \\$$
 
 
-<div class="accordion" id="accordion1">
+<div class="accordion">
   <div class="accordion-item">
-    <input type="checkbox" class="accordion-input" id="1-1">
-    <label class="accordion-header" for="1-1">+ Let's prove by induction that this holds for all $k \in \mathbb Z^+_0$</label>
+    <input type="checkbox" class="accordion-input" id="p2-1">
+    <label class="accordion-header" for="p2-1">+ Let's prove by induction that this holds for all $k \in \mathbb Z^+_0$</label>
     <div class="accordion-content">
       <p>
       We will prove by induction P(n): unrolling the Hanoi recurrence, $T(n) = 2T(n-1) + 1$, k times yields $T(n) = 2^{k}T(n-k) + 2^{k}-1$ for all $k \in \mathbb Z^+_0$<br><br> 
