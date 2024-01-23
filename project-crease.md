@@ -98,6 +98,19 @@ $$
 
 We derive a closed form solution to the recurrence relation.
 
+### Ex. 2 Another Recurrence
+Consider the recurrence relation given by $T(1) = 1$, $T(n) = 2T(n/2) + n^{2}$
+$$
+\begin{align*}
+\boldsymbol{T(n)} & = \boldsymbol{2T(n/2) + n^{2}} \text{, and} \\
+T(n/2) & = 2T((n/2)/2) + (n/2)^{2} \\
+& = 2T(n/2*1/2) + (n/2)^{2} \\
+& = 2T(n/2^{2}) + (n/2)^{2} \\
+\end{align*}
+$$
+so
+$$
+
 ## Credits
 These notes were compiled from various sources, most notably course handouts provided to students at the University of Washington, and the 
 Recurrences University of Illinois Urbana-Champaign.
