@@ -129,6 +129,10 @@ T(n) & = 2(2^{2}T(n/2^{3})+(n/2)^{2})+ (n^{2}/2) + n^{2} \\
 $$  
 </center>
 
+So it looks like unrolling the initial recurrence k times for $k \in \mathbb Z^+_0$, will give us a new recurrence
+
+$$T(n) = 2^{k}T(n/2^{k}) + \sum_{i=0}^{k-1} n^{2}/2^{i} \\$$
+
 ## Credits
 These notes were compiled from various freely accessible online sources, most notably course handouts provided to students at the University of Washington, and the University of Illinois Urbana-Champaign.
 
