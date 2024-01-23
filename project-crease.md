@@ -180,9 +180,10 @@ $$
 T(n)=2^{\log _{2} n}T(\frac{n}{2^{\log _{2} n}})+\sum_{i=0}^{(\log _{2} n)-1} \frac{n^{2}}{2^{i}}
 \end{align*}
 $$ 
+</center>
 To simplify this expression, notice that with minor rearranging the summation takes the form of a geometric series ($\sum_{i=0}^{k} ar^{i}$, where here our a=n^{2}, r=\frac{1}{2}, and k=\log _{2} n$)
 
-</center>
+
 
 ## Credits
 These notes were compiled from various freely accessible online sources, most notably course handouts provided to students at the University of Washington, and the University of Illinois Urbana-Champaign.
