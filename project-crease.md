@@ -164,7 +164,7 @@ $$T(n) = 2^{k}T(\frac{n}{2^{k}}) + \sum_{i=0}^{k-1} \frac{n^{2}}{2^{i}} \\$$
   </div>
 </div>
 
-Let's strategically unroll the recurrence until we reach a known base case, say $T(1)$. Note that to get our recursive term $T(\frac{n}{2}*k)$ to $T(1)$ we need to choose a $k$ such that $2^{k}=n$.
+Let's strategically unroll the recurrence until we reach a known base case, say $T(1)$. Note that to get our recursive term $T(\frac{n}{2^{k}})$ to $T(1)$ we need to choose a $k$ such that $2^{k}=n$.
 <center>
 $$
 \begin{align*}
@@ -179,7 +179,8 @@ $$
 \begin{align*}
 T(n)=2^{\log _{2} n}T(\frac{n}{2^{\log _{2} n}})+\sum_{i=0}^{(\log _{2} n)-1} \frac{n^{2}}{2^{i}}
 \end{align*}
-$$  
+$$ 
+To simplify this expression, we ues the fact that the summation takes the form of a geometric series (S = \frac{a \cdot (1 - r^{k+1})}{1 - r})
 
 </center>
 
