@@ -146,8 +146,8 @@ $$T(n) = 2^{k}T(\frac{n}{2^{k}}) + \sum_{i=0}^{k-1} \frac{n^{2}}{2^{i}} \\$$
       $\rightarrow$ So we have shown that P(n) holds for $k=0$.<br><br>
       <u>Inductive Step:</u> We will show $P(k \geq 0)$ holds<br> 
       Inductive Hypothesis:
-      Assume $P(k-1) \rightarrow$ $T(n)=2^{k-1}T(n-(k-1))+2^{k-1}-1$<br><br>
-      Wts. $P((k-1)+1): P(k) \rightarrow$ $T(n)=2^{k}T(n-k)+2^{k}-1$<br><br>
+      Assume $P(k-1) \rightarrow$ $T(n) = 2^{k-1}T(\frac{n}{2^{k-1}}) + \sum_{i=0}^{(k-1)-1} \frac{n^{2}}{2^{i}}$<br><br>
+      Wts. $P((k-1)+1): P(k) \rightarrow$ $T(n) = 2^{k}T(\frac{n}{2^{k}}) + \sum_{i=0}^{k-1} \frac{n^{2}}{2^{i}}$<br><br>
       We have:<br>
       $T(n)=2^{k-1}T(n-(k-1))+2^{k-1}-1$<br><br>
       Then by defn. of unrolling we derive from $P(k-1)$...<br>
