@@ -111,7 +111,7 @@ so
 $$
 
 ## Credits
-These notes were compiled from various sources, most notably course handouts provided to students at the University of Washington, and the 
+These notes were compiled from various freely accessible online sources, most notably course handouts provided to students at the University of Washington, and the 
 Recurrences University of Illinois Urbana-Champaign.
 
 [back](./)
