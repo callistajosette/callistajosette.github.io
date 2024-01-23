@@ -63,15 +63,12 @@ $$T(n) = 2^{k}T(n-k) + 2^{k}-1 \\$$
     <label class="accordion-header" for="1-1">+ Let's prove by induction that this holds for all $k \in \mathbb Z^+_0$</label>
     <div class="accordion-content">
       <p>
-      We will prove by induction P(n): unrolling the Hanoi recurrence $T(n) = 2T(n-1) + 1$ $k$ times yields T(n) = 2^{k}T(n-k) + 2^{k}-1 for all $k \in \mathbb Z^+_0$<br><br>
-        
+      We will prove by induction P(n): unrolling the Hanoi recurrence $T(n) = 2T(n-1) + 1$ $k$ times yields T(n) = 2^{k}T(n-k) + 2^{k}-1 for all $k \in \mathbb Z^+_0$<br><br> 
       <u>Basis:</u> We will show $P(k=0)$ holds<br>
       $P(k=0)$ trivially holds; since we have unrolled the recurrence 0 times, we do not enter the generator<br><br>
-      
       <u>Inductive Step:</u> We will show $P(k \geq 0)$ holds<br>
       Inductive Hypothesis: Assume that $P(k-1) \rightarrow T(n)=2^{k-1}T(n-(k-1))+2^{k-1}-1$ is the result when we unroll $T(n)$, $k-1$ times<br><br>
       Then we want to show $P(k) \rightarrow T(n)=2^{k}T(n-k)+2^{k}-1$ is the result if we unroll $T(n)$, $k$ times<br><br>
-      
       We have:<br>
       $$2^{k-1}(2T(n-k)+1)+2^{k-1}-1 \\
       2^{k}(T(n-k)+1)+2^{k-1}-1 \\\\
