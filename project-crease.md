@@ -66,7 +66,6 @@ $$T(n) = 2^{k}T(n-k) + 2^{k}-1 \\$$
       We will prove by induction P(n): unrolling the Hanoi recurrence k times satisfies <br><br>
         
       <u>Basis</u> We will show $P(k=0)$ holds<br>
-      $P(k=0)$<br>
       $P(k=0)$ trivially holds; since we have unrolled the recurrence 0 times, we do not enter the generator<br><br>
       
       <u>Inductive Step</u><br> We will show $P(k \geq 0)$ holds
