@@ -133,6 +133,36 @@ So it looks like unrolling the initial recurrence k times for $k \in \mathbb Z^+
 
 $$T(n) = 2^{k}T(\frac{n}{2^{k}}) + \sum_{i=0}^{k-1} \frac{n^{2}}{2^{i}} \\$$
 
+
+<div class="accordion" id="accordion1">
+  <div class="accordion-item">
+    <input type="checkbox" class="accordion-input" id="1-1">
+    <label class="accordion-header" for="1-1">+ Let's prove by induction that this holds for all $k \in \mathbb Z^+_0$</label>
+    <div class="accordion-content">
+      <p>
+      We will prove by induction P(n): unrolling the Hanoi recurrence, $T(n) = 2T(n-1) + 1$, k times yields $T(n) = 2^{k}T(n-k) + 2^{k}-1$ for all $k \in \mathbb Z^+_0$<br><br> 
+      <u>Basis:</u> We will show $P(k=0)$ holds<br>
+      $P(k=0)$ trivially holds; since we have unrolled the recurrence 0 times, we do not enter the generator<br>
+      $\rightarrow$ So we have shown that P(n) holds for $k=0$.<br><br>
+      <u>Inductive Step:</u> We will show $P(k \geq 0)$ holds<br> 
+      Inductive Hypothesis:
+      Assume $P(k-1) \rightarrow$ $T(n)=2^{k-1}T(n-(k-1))+2^{k-1}-1$<br><br>
+      Wts. $P((k-1)+1): P(k) \rightarrow$ $T(n)=2^{k}T(n-k)+2^{k}-1$<br><br>
+      We have:<br>
+      $T(n)=2^{k-1}T(n-(k-1))+2^{k-1}-1$<br><br>
+      Then by defn. of unrolling we derive from $P(k-1)$...<br>
+      $T(n)=2^{k-1}(2T(n-k)+1)+2^{k-1}-1$, <br>
+      $T(n)=2^{k}(T(n-k)+1)+2^{k-1}-1$<br>
+      $T(n)=2^{k}(T(n-k))+2^{k-1}$<br>
+      $\rightarrow$So we have shown that P(n) holds for $k\geq 0$<br><br>
+      So we have shown that P(n) holds for all $k \in \mathbb Z^+_0$.
+      $$\tag*{$\blacksquare$}$$
+      </p>
+    </div>
+  </div>
+</div>
+
+
 ## Credits
 These notes were compiled from various freely accessible online sources, most notably course handouts provided to students at the University of Washington, and the University of Illinois Urbana-Champaign.
 
