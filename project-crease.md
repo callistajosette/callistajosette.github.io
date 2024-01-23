@@ -149,9 +149,9 @@ $$T(n) = 2^{k}T(\frac{n}{2^{k}}) + \sum_{i=0}^{k-1} \frac{n^{2}}{2^{i}} \\$$
       Assume $P(k-1) \rightarrow$ $T(n) = 2^{k-1}T(\frac{n}{2^{k-1}}) + \sum_{i=0}^{(k-1)-1} \frac{n^{2}}{2^{i}}$<br><br>
       Wts. $P((k-1)+1): P(k) \rightarrow$ $T(n) = 2^{k}T(\frac{n}{2^{k}}) + \sum_{i=0}^{k-1} \frac{n^{2}}{2^{i}}$<br><br>
       We have:<br>
-      $T(n)=2^{k-1}T(n-(k-1))+2^{k-1}-1$<br><br>
+      $T(n) = 2^{k}T(\frac{n}{2^{k}}) + \sum_{i=0}^{k-1} \frac{n^{2}}{2^{i}}$<br><br>
       Then by defn. of unrolling we derive from $P(k-1)$...<br>
-      $T(n)=2^{k-1}(2T(n-k)+1)+2^{k-1}-1$, <br>
+      $T(n) = 2^{k-1}(2T(\frac{n}{2^{k}})+(\frac{n}{2^{k-1}})^{2}) + \sum_{i=0}^{k-1} \frac{n^{2}}{2^{i}}$, <br>
       $T(n)=2^{k}(T(n-k)+1)+2^{k-1}-1$<br>
       $T(n)=2^{k}(T(n-k))+2^{k-1}$<br>
       $\rightarrow$So we have shown that P(n) holds for $k\geq 0$<br><br>
