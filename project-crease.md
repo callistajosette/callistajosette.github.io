@@ -113,7 +113,7 @@ $$
 \begin{align*}
 T(n) & = 2(2T(\frac{n}{2^{2}})+(\frac{n}{2})^{2}) + n^{2} \\
 & = 2^{2}T(\frac{n}{2^{2}})+2(\frac{n}{2})^{2} + n^{2} \\
-& = 2^{2}T(\frac{n}{2^{2}})+2*\frac{1}{2}*\frac{1}{2}*n*n + n^{2} \\
+& = 2^{2}T(\frac{n}{2^{2}})+(2*\frac{1}{2}*\frac{1}{2}*n*n) + n^{2} \\
 & \boldsymbol{= 2^{2}T(\frac{n}{2^{2}})+(\frac{n^{2}}{2}) + n^{2}} \text{, and} \\
 T(\frac{n}{2^{2}}) & = 2T(\frac{\frac{n}{2^{2}}}{2}) + (\frac{n}{2^{2}})^{2} \\
 & = 2T(\frac{n}{2^{3}}) + (\frac{n}{2^{2}})^{2} \\
@@ -123,7 +123,7 @@ so
 $$
 \begin{align*}
 T(n) & = 2(2^{2}T(\frac{n}{2^{3}})+(\frac{n}{2})^{2})+ (\frac{n^{2}}{2}) + n^{2} \\
-& = 2^{3}T(\frac{n}{2^{3}})+2*\frac{1}{2}*\frac{1}{2}*\frac{1}{2}*\frac{1}{2}*n*n)+ (\frac{n^{2}}{2}) + n^{2} \\
+& = 2^{3}T(\frac{n}{2^{3}})+(2*\frac{1}{2}*\frac{1}{2}*\frac{1}{2}*\frac{1}{2}*n*n)+ (\frac{n^{2}}{2}) + n^{2} \\
 & \boldsymbol{= 2^{3}T(\frac{n}{2^{3}})+(\frac{n^{2}}{2^{2}})+ (\frac{n^{2}}{2}) + n^{2}}
 \end{align*}
 $$  
@@ -131,7 +131,7 @@ $$
 
 So it looks like unrolling the initial recurrence k times for $k \in \mathbb Z^+_0$, will give us a new recurrence
 
-$$T(n) = 2^{k}T(n/2^{k}) + \sum_{i=0}^{k-1} n^{2}/2^{i} \\$$
+$$T(n) = 2^{k}T(\frac{n}{2^{k}}) + \sum_{i=0}^{k-1} \frac{n^{2}}{2^{i}} \\$$
 
 ## Credits
 These notes were compiled from various freely accessible online sources, most notably course handouts provided to students at the University of Washington, and the University of Illinois Urbana-Champaign.
