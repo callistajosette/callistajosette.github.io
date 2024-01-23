@@ -130,8 +130,7 @@ $$
 </center>
 
 ## Credits
-These notes were compiled from various freely accessible online sources, most notably course handouts provided to students at the University of Washington, and the 
-Recurrences University of Illinois Urbana-Champaign.
+These notes were compiled from various freely accessible online sources, most notably course handouts provided to students at the University of Washington, and the University of Illinois Urbana-Champaign.
 
 [back](./)
 
