@@ -169,9 +169,9 @@ Let's strategically unroll the recurrence until we reach a known base case, say 
 $$
 \begin{align*}
 2^{k} & =n
-\log _{2} 2^{k} & =\log _{2} n
-k* \log _{2} 2 & =\log _{2} n
-k & =\log _{2} n
+\log _{2} 2^{k} & =\log _{2} n \\
+k* \log _{2} 2 & =\log _{2} n \\
+k & =\log _{2} n \\
 \end{align*}
 $$  
 so
