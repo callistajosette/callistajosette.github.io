@@ -96,7 +96,7 @@ T(n) & = 2^{n}T(n-n) + 2^{n}-1 \\
 $$
 
 We derive a closed form solution to the recurrence relation.
-\frac{}{}
+
 ### Ex. 2 Another Recurrence
 Consider the recurrence relation given by $T(1) = 1$, $T(n) = 2T(\frac{n}{2}) + n^{2}$
 <center>
@@ -111,12 +111,12 @@ $$
 so
 $$
 \begin{align*}
-T(n) & = 2(2T(n/2^{2})+(n/2)^{2}) + n^{2} \\
-& = 2^{2}T(n/2^{2})+2(n/2)^{2} + n^{2} \\
-& = 2^{2}T(n/2^{2})+2*1/2*1/2*n*n + n^{2} \\
-& \boldsymbol{= 2^{2}T(n/2^{2})+(n^{2}/2) + n^{2}} \text{, and} \\
-T(n/2^{2}) & = 2T((n/2^{2})/2) + (n/2^{2})^{2} \\
-& = 2T((n/2^{3})) + (n/2^{2})^{2} \\
+T(n) & = 2(2T(\frac{n}{2^{2}})+(\frac{n}{2})^{2}) + n^{2} \\
+& = 2^{2}T(\frac{n}{2^{2}})+2(\frac{n}{2})^{2} + n^{2} \\
+& = 2^{2}T(\frac{n}{2^{2}})+2*\frac{1}{2}*\frac{1}{2}*n*n + n^{2} \\
+& \boldsymbol{= 2^{2}T(\frac{n}{2^{2}})+(\frac{n^{2}}{2}) + n^{2}} \text{, and} \\
+T(\frac{n}{2^{2}}) & = 2T(\frac{\frac{n}{2^{2}}}{2}) + (\frac{n}{2^{2}})^{2} \\
+& = 2T((\frac{n}{2^{3}})) + (\frac{n}{2^{2}})^{2} \\
 \end{align*}
 $$
 so
