@@ -168,14 +168,19 @@ Let's strategically unroll the recurrence until we reach a known base case, say 
 <center>
 $$
 \begin{align*}
-2^{k} & =n
+2^{k} & =n \\
 \log _{2} 2^{k} & =\log _{2} n \\
 k* \log _{2} 2 & =\log _{2} n \\
 k & =\log _{2} n \\
 \end{align*}
 $$  
 so
-  
+$$
+\begin{align*}
+T(n)=2^{\log _{2} n}T(\frac{n}{2^{\log _{2} n}})+\sum_{i=0}^{(\log _{2} n)-1} \frac{n^{2}}{2^{i}}
+\end{align*}
+$$  
+
 </center>
 
 ## Credits
