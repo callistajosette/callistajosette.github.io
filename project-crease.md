@@ -102,10 +102,10 @@ Consider the recurrence relation given by $T(1) = 1$, $T(n) = 2T(\frac{n}{2}) + 
 <center>
 $$
 \begin{align*}
-\boldsymbol{T(n)} & = \boldsymbol{2T(n/2) + n^{2}} \text{, and} \\
-T(n/2) & = 2T((n/2)/2) + (n/2)^{2} \\
-& = 2T(n/2*1/2) + (n/2)^{2} \\
-& = 2T(n/2^{2}) + (n/2)^{2} \\
+\boldsymbol{T(n)} & = \boldsymbol{2T(\frac{n}{2}) + n^{2}} \text{, and} \\
+T(\frac{n}{2}) & = 2T(\frac{\frac{n}{2}}{2}) + (\frac{n}{2})^{2} \\
+& = 2T(\frac{n}{2}*\frac{1}{2}) + (\frac{n}{2})^{2} \\
+& = 2T(\frac{n}{2^{2}}) + (\frac{n}{2})^{2} \\
 \end{align*}
 $$
 so
