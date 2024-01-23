@@ -70,7 +70,7 @@ $$T(n) = 2^{k}T(n-k) + 2^{k}-1 \\$$
       
       <u>Inductive Step:</u> We will show $P(k \geq 0)$ holds<br>
       Inductive Hypothesis: Assume that $P(k-1) \rightarrow T(n)=2^{k-1}T(n-(k-1))+2^{k-1}-1$ is the result when we unroll $T(n)$, $k-1$ times<br><br>
-      Then we want to show $P(k) \rightarrow T(n)=2^{k}T(n-k)+2^{k}-1$ is the result if we unroll T(n) k times<br><br>
+      Then we want to show $P(k) \rightarrow T(n)=2^{k}T(n-k)+2^{k}-1$ is the result if we unroll $T(n)$, $k$ times<br><br>
       
       We have:<br>
       $$2^{k-1}(2T(n-k)+1)+2^{k-1}-1 \\
