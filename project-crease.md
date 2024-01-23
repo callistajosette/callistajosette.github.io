@@ -98,5 +98,9 @@ $$
 
 We derive a closed form solution to the recurrence relation.
 
+## Credits
+These notes were compiled from various sources, most notably course handouts provided to students at the University of Washington, and the 
+Recurrences University of Illinois Urbana-Champaign.
+
 [back](./)
 
