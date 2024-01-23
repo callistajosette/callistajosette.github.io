@@ -96,9 +96,9 @@ T(n) & = 2^{n}T(n-n) + 2^{n}-1 \\
 $$
 
 We derive a closed form solution to the recurrence relation.
-
+\frac{}{}
 ### Ex. 2 Another Recurrence
-Consider the recurrence relation given by $T(1) = 1$, $T(n) = 2T(/frac{n}{2}) + n^{2}$
+Consider the recurrence relation given by $T(1) = 1$, $T(n) = 2T(\frac{n}{2}) + n^{2}$
 <center>
 $$
 \begin{align*}
