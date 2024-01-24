@@ -179,6 +179,7 @@ $$
 \begin{align*}
 T(n) & =2^{\log _{2} n}T(\frac{n}{2^{\log _{2} n}})+\sum_{i=0}^{(\log _{2} n)-1} \frac{n^{2}}{2^{i}}
 & =n*T(1)+\sum_{i=0}^{(\log _{2} n)-1} \frac{n^{2}}{2^{i}}\\
+& =n+\sum_{i=0}^{(\log _{2} n)-1} \frac{n^{2}}{2^{i}}\\
 \end{align*}
 $$ 
 </center>
