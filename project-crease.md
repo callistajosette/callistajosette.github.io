@@ -202,6 +202,8 @@ $$
 We derive an exact solution to the recurrence relation.
 
 ## Recurrence Trees
+### Ex. 1 Karatsuba's Multiplication Method
+
 
 
 ## Credits
