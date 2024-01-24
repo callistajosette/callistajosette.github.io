@@ -187,7 +187,7 @@ To simplify this expression, we can evaluate the last term using the formula for
 <center>
 $$
 \begin{align*}
-T(n)=n+\sum_{i=0}^{(\log _{2} n)-1} \frac{n^{2}}{2^{i}}\\
+T(n)=n+n^{2}*(\frac{\frac{1}{2}^{\log _{2}{n}-1}}{\frac{1}[2]-1})\\
   
 \end{align*}
 $$  
