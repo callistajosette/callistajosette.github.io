@@ -7,6 +7,7 @@ layout: default
 <p align="center">
   1. Unrolling the Recurrence
   2. Recurrence Trees
+  3. Annihilator functions
 </p>
 
 ## Description
