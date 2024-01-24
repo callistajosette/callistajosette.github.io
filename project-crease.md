@@ -201,7 +201,7 @@ $$
 
 We derive an exact solution to the recurrence relation.
 
-### Ex. 3 Fibbonaci Numbers
+### Ex. 3 Recurrence Trees
 
 
 ## Credits
