@@ -193,12 +193,9 @@ T(n)& =n+n^{2}(\frac{1-\frac{1}{2}^{(\log _{2}{n}-1)+1}}{1-\frac{1}{2}})\\
 &= 2n^{2}-\frac{2n^{2}}{n}+n\\
 &= 2n^{2}-2n+n
 &=2n^{2}-n
-
-  
 \end{align*}
 $$  
 </center>
-
 
 ## Credits
 These notes were compiled from various freely accessible online sources, most notably course handouts provided to students at the University of Washington, and the University of Illinois Urbana-Champaign.
