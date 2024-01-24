@@ -181,7 +181,7 @@ T(n)=2^{\log _{2} n}T(\frac{n}{2^{\log _{2} n}})+\sum_{i=0}^{(\log _{2} n)-1} \f
 \end{align*}
 $$ 
 </center>
-To simplify this expression, note the last term is a geometric series ($\sum_{i=0}^{k} ar^{i}$, where here our $a=n^{2}$, $r=\frac{1}{2}$, and $k=\log _{2} n$). Therefore we can use the 
+To simplify this expression, note the last term is a geometric series ($\sum_{i=0}^{k} ar^{i}$, where here our $a=n^{2}$, $r=\frac{1}{2}$, and $k=\log _{2} n$) and we can therefore evaluate it using the closed-form formula S = \frac{a \cdot (1 - r^{k+1})}{1 - r} 
 
 
 
