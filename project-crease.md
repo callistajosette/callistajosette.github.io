@@ -199,8 +199,11 @@ $$
 
 We derive an exact solution to the recurrence relation.
 
+## Ex. 3 Fibbonaci Numbers
+
+
 ## Credits
-These notes were compiled from various freely accessible online sources, most notably course handouts provided to students at the University of Washington, and the University of Illinois Urbana-Champaign.
+These notes were compiled from various freely accessible online sources, most notably course handouts provided to students at the University of Washington, and the University of Illinois Urbana-Champaign. 
 
 [back](./)
 
