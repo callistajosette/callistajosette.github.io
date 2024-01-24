@@ -95,7 +95,7 @@ T(n) & = 2^{n}T(n-n) + 2^{n}-1 \\
 \end{align*}
 $$
 
-We derive a closed form solution to the recurrence relation.
+We derive an exact solution to the recurrence relation.
 
 ### Ex. 2 Another Recurrence
 Consider the recurrence relation given by $T(1) = 1$, $T(n) = 2T(\frac{n}{2}) + n^{2}$
@@ -196,6 +196,8 @@ T(n)& =n+n^{2}(\frac{1-\frac{1}{2}^{(\log _{2}{n}-1)+1}}{1-\frac{1}{2}})\\
 \end{align*}
 $$  
 </center>
+
+We derive an exact solution to the recurrence relation.
 
 ## Credits
 These notes were compiled from various freely accessible online sources, most notably course handouts provided to students at the University of Washington, and the University of Illinois Urbana-Champaign.
