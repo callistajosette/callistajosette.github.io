@@ -187,7 +187,13 @@ To simplify this expression, we can evaluate the last term using the formula for
 <center>
 $$
 \begin{align*}
-T(n)=n+n^{2}*(\frac{1-\frac{1}{2}^{(\log _{2}{n}-1)+1}}{1-\frac{1}{2}})\\
+T(n)& =n+n^{2}(\frac{1-\frac{1}{2}^{(\log _{2}{n}-1)+1}}{1-\frac{1}{2}})\\
+& =n+n^{2}(\frac{1-\frac{1}{n}}{\frac{1}{2}})\\
+&= n+n^{2}(2-\frac{2}{n})\\
+&= 2n^{2}-\frac{2n^{2}}{n}+n\\
+&= 2n^{2}-2n+n
+&=2n^{2}-n
+
   
 \end{align*}
 $$  
