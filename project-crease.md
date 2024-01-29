@@ -219,7 +219,7 @@ $$
 $$ 
 </center>
 
-At each level of the tree we are doing $2^{\ell}$n work. 
+At each level of the tree we are doing $2^{\ell}$n work, so in total, we complete $T(n)=\sum_{i=1}^{\ell} 2^{i}n$ work.
 
 ![Karatsuba's Recursion Tree Annotated](/assets/img/karatsuba annotated.png)
 
