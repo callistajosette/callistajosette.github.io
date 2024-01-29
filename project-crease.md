@@ -207,7 +207,7 @@ Naive Karatsuba's multiplication method is given by the recurrence $T(n)=4T((n/2
 
 ![Karatsuba's Recursion Tree](/assets/img/karatsuba.png)
 
-What is $\ell$, the height of our tree? Reaching $\ell$ means we have performed sufficient splits to reach a base case (we reach a subproblem consisting of only one digit). Mathematically, this is equivalent to the case where...
+To solve for $\ell$, the height of our tree, notice that reaching $\ell$ means we have performed sufficient splits to reach a base case (we reach a subproblem consisting of only one digit). Mathematically, this is equivalent to the case where...
 <center>
 $$ 
 \begin{align*}
