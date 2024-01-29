@@ -244,6 +244,8 @@ At each level of the tree we are doing $2^{\ell}O(1)$ work, so our new recurrenc
 
 ![LIS Backtracking Recursion Tree](/assets/img/lis backtracking.png)
 
+We obtain $T(n) by evaluating as a geometric series$
+
 <center>
 $$ 
 \begin{align*}
