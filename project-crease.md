@@ -224,10 +224,87 @@ At each level of the tree we are doing $2^{\ell}n$ work, and we can define a new
 ![Karatsuba's Recursion Tree Annotated](/assets/img/karatsuba annotated.png)
 
 <script src="https://github.com/callistajosette/callistajosette.github.io/blob/bf7b1e67114dfbd9b59dc2d8eb0938a442884607/assets/img/karatsuba%20annotated.tex"></script>
-``` javascript
-function test() {
-    console.log("test");
-}
+``` tex
+\documentclass[landscape]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+\usetikzlibrary{decorations.pathreplacing}
+\usepackage{forest}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+\usepackage[margin=1in]{geometry} % Set margins
+
+\begin{document}
+\begin{figure}
+    \centering
+    \resizebox{\linewidth}{!}{%
+        \begin{forest}
+        for tree={
+          parent anchor=south,
+          draw,
+          rectangle,
+          %minimum size=2em,
+          %s sep=2pt, % Adjust the vertical separation
+          %l sep=15pt, % Adjust the horizontal separation
+        }
+            [$n$,name=L1
+            [$\frac{n}{2}$
+            [$\frac{n}{4}$, name=L4]
+            [$\frac{n}{4}$]
+            [$\frac{n}{4}$]
+            [$\frac{n}{4}$]
+            ]
+            [$\frac{n}{2}$
+            [,draw=none, edge=dotted, name=empty11]
+            [,draw=none, edge=dotted]
+            [,draw=none, edge=dotted]
+            [,draw=none, edge=dotted, name=empty12]
+            ]
+            [$\frac{n}{2}$
+            [,draw=none, edge=dotted, name=empty21]
+            [,draw=none, edge=dotted]
+            [,draw=none, edge=dotted]
+            [,draw=none, edge=dotted, name=empty22]
+            ]
+            [$\frac{n}{2}$, name=L2
+            [,draw=none, edge=dotted, name=empty31]
+            [,draw=none, edge=dotted]
+            [,draw=none, edge=dotted]
+            [,draw=none, , edge=dotted, name=empty32]
+            ]
+            ]
+            %position args for recursion tree breadth annotation
+            \node (f) at (current bounding box.south east) {};
+            \node (g) at (current bounding box.south west) {};
+            %labels for tree tiers
+            \node (a) [right=of L1 -| empty32.east] {$n$};
+            \node (b) [right=of L2 -| empty32.east] {$\frac{4n}{2}$};
+            \node (c) [right=of empty32.east]       {$\frac{16n}{4}$};
+            %position args for recursion tree depth annotations
+            \node (d) [left=of L1 -| L4.east] {};
+            \node (e) [left=of L4.east] {};
+            %draw tree tiers
+            \draw[dashed,->] (L1) -- (a);
+            \draw[dashed,->] (L2) -- (b);
+            \draw[dashed,->] (empty32) -- (c);
+            %draw depth annotation
+            \draw[->] (d.east) -- node[midway,fill=white] {$\ell=\log _{2} n$} (e.east);
+            %draw breadth annotation
+            \draw[decorate,decoration={brace,amplitude=10pt, mirror}]
+            (g.south) -- node[below=10pt] {$T(n)=\sum_{i=1}^{\ell} 2^{i}n$} (f.south);
+            %etc. denotation
+            \path (empty11.south) -- node[midway,fill=white] {...} (empty12.south);
+            \path (empty21.south) -- node[midway,fill=white] {...} (empty22.south);
+            \path (empty31.south) -- node[midway,fill=white] {...} (empty32.south);
+        \end{forest}%
+    }
+    %\caption{Your caption here}
+\end{figure}
+\end{document}
 ```
 
 Then we can calculate an exact solution for T(n) by substituting in the depth of our tree and evaluating the resulting expression as a geometric series.
