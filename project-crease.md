@@ -224,6 +224,11 @@ At each level of the tree we are doing $2^{\ell}n$ work, and we can define a new
 ![Karatsuba's Recursion Tree Annotated](/assets/img/karatsuba annotated.png)
 
 <script src="https://github.com/callistajosette/callistajosette.github.io/blob/bf7b1e67114dfbd9b59dc2d8eb0938a442884607/assets/img/karatsuba%20annotated.tex"></script>
+``` javascript
+function test() {
+    console.log("test");
+}
+```
 
 Then we can calculate an exact solution for T(n) by substituting in the depth of our tree and evaluating the resulting expression as a geometric series.
 <center>
