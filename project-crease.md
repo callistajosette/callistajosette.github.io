@@ -207,7 +207,7 @@ Karatsuba's multiplication method is given by the recurrence $T(n)=4T((n/2)+O(n)
 
 ![Karatsuba's Recursion Tree](/assets/img/karatsuba.png)
 
-What is $/ell$?, represents when we have split enough to reach our base case (such that each subproblem composes of only one digit). 
+What is $\ell$?, represents when we have split enough to reach our base case (such that each subproblem composes of only one digit). 
 \begin{align*}
 ~\frac{n}{2^{\ell}} & \leq 1 \\
 2^{\ell} & \leq n \\
