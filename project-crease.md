@@ -240,7 +240,15 @@ The longest increasing subsequence problem is given by the recurrence $T(n)=2T(n
 
 ![LIS Backtracking Recursion Tree](/assets/img/lis backtracking.png)
 
-
+<center>
+$$ 
+\begin{align*}
+T(n) & =\sum_{i=0}^{(n)-1} 2^{i}O(1) \\
+& = O(1)(\frac{2^{(n-1)+1}-1}{2-1}) \\
+& = c(2^{n}-1)
+\end{align*}
+$$ 
+</center>
 
 ## Credits
 These notes were compiled from various freely accessible online sources, most notably course handouts provided to students at the University of Washington, and the University of Illinois Urbana-Champaign. 
