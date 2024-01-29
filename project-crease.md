@@ -214,7 +214,7 @@ $$
 \~ \frac{n}{2^{\ell}} & \leq 1 \\
 \frac{1}{2^{\ell}} & \leq \frac{1}{n} \\
 2^{\ell} & \leq n \\
-\ell & =\log _{2} n \\
+\ell & \approx \log _{2} n \\
 \end{align*}
 $$ 
 </center>
