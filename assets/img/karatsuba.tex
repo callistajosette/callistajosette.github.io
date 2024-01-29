@@ -32,24 +32,28 @@
             [$\frac{n}{4}$]
             ]
             [$\frac{n}{2}$
+            [,draw=none, edge=dotted, name=empty11]
             [,draw=none, edge=dotted]
             [,draw=none, edge=dotted]
-            [,draw=none, edge=dotted]
-            [,draw=none, edge=dotted]
+            [,draw=none, edge=dotted, name=empty12]
             ]
             [$\frac{n}{2}$
+            [,draw=none, edge=dotted, name=empty21]
             [,draw=none, edge=dotted]
             [,draw=none, edge=dotted]
-            [,draw=none, edge=dotted]
-            [,draw=none, edge=dotted]
+            [,draw=none, edge=dotted, name=empty22]
             ]
             [$\frac{n}{2}$, name=L2
+            [,draw=none, edge=dotted, name=empty31]
             [,draw=none, edge=dotted]
             [,draw=none, edge=dotted]
-            [,draw=none, edge=dotted]
-            [,draw=none, , edge=dotted, name=L3]
+            [,draw=none, , edge=dotted, name=empty32]
             ]
             ]
+            %etc. denotation
+            \path (empty11.south) -- node[midway,fill=white] {...} (empty12.south);
+            \path (empty21.south) -- node[midway,fill=white] {...} (empty22.south);
+            \path (empty31.south) -- node[midway,fill=white] {...} (empty32.south);
         \end{forest}%
     }
     %\caption{Your caption here}
