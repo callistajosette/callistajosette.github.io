@@ -238,6 +238,8 @@ $$
 ### Ex. 2 Longest Increasing Subsequence
 The longest increasing subsequence problem is given by the recurrence $T(n)=2T(n-1)+O(1)$ when memoization is not leveraged.
 
+In this case our $\ell$ should be n because reaching $\ell$ means we have checked for LIS's in all but he last digit (which is a base case and has a known LIS of 1).
+
 At each level of the tree we are doing $2^{\ell}O(1)$ work, so our new recurrence is $T(n)=\sum_{i=0}^{\ell - 1} 2^{i}O(1)$.
 
 ![LIS Backtracking Recursion Tree](/assets/img/lis backtracking.png)
