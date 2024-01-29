@@ -211,7 +211,7 @@ What is $\ell$, the height of our tree? Note that reaching $\ell$ means we have 
 <center>
 $$ 
 \begin{align*}
-~\frac{n}{2^{\ell}} & \leq 1 \\
+\approx\frac{n}{2^{\ell}} & \leq 1 \\
 2^{\ell} & \leq n \\
 \ell & =\log _{2} n \\
 \end{align*}
