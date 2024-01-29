@@ -222,7 +222,6 @@ $$
 At each level of the tree we are doing $2^{\ell}n$ work, and we can define a new recurrence in terms of total work completed $T(n)=\sum_{i=0}^{\ell - 1} 2^{i}n$.
 
 ![Karatsuba's Recursion Tree Annotated](/assets/img/karatsuba annotated.png)
-
 <script src="https://gist.github.com/callistajosette/762cd63e8c868e0f3b94fef99f4a13eb.js"></script>
 
 Then we can calculate an exact solution for T(n) by substituting in the depth of our tree and evaluating the resulting expression as a geometric series.
