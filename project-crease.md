@@ -219,7 +219,7 @@ $$
 $$ 
 </center>
 
-At each level of the tree we are doing $2^{\ell}$n work, and we can define a new recurrence in terms of total work completed $T(n)=\sum_{i=0}^{\ell - 1} 2^{i}n$.
+At each level of the tree we are doing $2^{\ell}n$ work, and we can define a new recurrence in terms of total work completed $T(n)=\sum_{i=0}^{\ell - 1} 2^{i}n$.
 
 ![Karatsuba's Recursion Tree Annotated](/assets/img/karatsuba annotated.png)
 
