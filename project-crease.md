@@ -218,6 +218,9 @@ $$
 \end{align*}
 $$ 
 </center>
+
+At each level of the tree we are doing $2^{\ell}$n work. 
+
 ![Karatsuba's Recursion Tree Annotated](/assets/img/karatsuba annotated.png)
 
 
