@@ -202,8 +202,8 @@ $$
 We derive an exact solution to the recurrence relation.
 
 ## Recurrence Trees
-### Ex. 1 Karatsuba's Multiplication Method
-Karatsuba's multiplication method is given by the recurrence $T(n)=4T((n/2)+O(n)$.
+### Ex. 1 Naive Karatsuba's Multiplication Method
+Naive Karatsuba's multiplication method is given by the recurrence $T(n)=4T((n/2)+O(n)$.
 
 ![Karatsuba's Recursion Tree](/assets/img/karatsuba.png)
 
