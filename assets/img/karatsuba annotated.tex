@@ -50,6 +50,25 @@
             [,draw=none, , edge=dotted, name=L3]
             ]
             ]
+            %position args for recursion tree breadth annotation
+            \node (f) at (current bounding box.south east) {};
+            \node (g) at (current bounding box.south west) {};
+            %labels for tree tiers
+            \node (a) [right=of L1 -| L3.east] {$n$};
+            \node (b) [right=of L2 -| L3.east] {$\frac{4n}{2}$};
+            \node (c) [right=of L3.east]       {$\frac{16n}{4}$};
+            %position args for recursion tree depth annotations
+            \node (d) [left=of L1 -| L4.east] {};
+            \node (e) [left=of L4.east] {};
+            %draw tree tiers
+            \draw[dashed,->] (L1) -- (a);
+            \draw[dashed,->] (L2) -- (b);
+            \draw[dashed,->] (L3) -- (c);
+            %draw depth annotation
+            \draw[->] (d.east) -- node[midway,fill=white] {$\ell=\log _{2} n$} (e.east);
+            %draw breadth annotation
+            \draw[decorate,decoration={brace,mirror}]
+            (g.south) -- node[below] {$T(n)=\sum_{i=1}^{\ell} 2^{i}n= n(n-1)$} (f.south);
         \end{forest}%
     }
     %\caption{Your caption here}
