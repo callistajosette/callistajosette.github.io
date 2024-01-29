@@ -32,43 +32,47 @@
             [$\frac{n}{4}$]
             ]
             [$\frac{n}{2}$
+            [,draw=none, edge=dotted, name=empty11]
             [,draw=none, edge=dotted]
             [,draw=none, edge=dotted]
-            [,draw=none, edge=dotted]
-            [,draw=none, edge=dotted]
+            [,draw=none, edge=dotted, name=empty12]
             ]
             [$\frac{n}{2}$
+            [,draw=none, edge=dotted, name=empty21]
             [,draw=none, edge=dotted]
             [,draw=none, edge=dotted]
-            [,draw=none, edge=dotted]
-            [,draw=none, edge=dotted]
+            [,draw=none, edge=dotted, name=empty22]
             ]
             [$\frac{n}{2}$, name=L2
+            [,draw=none, edge=dotted, name=empty31]
             [,draw=none, edge=dotted]
             [,draw=none, edge=dotted]
-            [,draw=none, edge=dotted]
-            [,draw=none, , edge=dotted, name=L3]
+            [,draw=none, , edge=dotted, name=empty32]
             ]
             ]
             %position args for recursion tree breadth annotation
             \node (f) at (current bounding box.south east) {};
             \node (g) at (current bounding box.south west) {};
             %labels for tree tiers
-            \node (a) [right=of L1 -| L3.east] {$n$};
-            \node (b) [right=of L2 -| L3.east] {$\frac{4n}{2}$};
-            \node (c) [right=of L3.east]       {$\frac{16n}{4}$};
+            \node (a) [right=of L1 -| empty32.east] {$n$};
+            \node (b) [right=of L2 -| empty32.east] {$\frac{4n}{2}$};
+            \node (c) [right=of empty32.east]       {$\frac{16n}{4}$};
             %position args for recursion tree depth annotations
             \node (d) [left=of L1 -| L4.east] {};
             \node (e) [left=of L4.east] {};
             %draw tree tiers
             \draw[dashed,->] (L1) -- (a);
             \draw[dashed,->] (L2) -- (b);
-            \draw[dashed,->] (L3) -- (c);
+            \draw[dashed,->] (empty32) -- (c);
             %draw depth annotation
             \draw[->] (d.east) -- node[midway,fill=white] {$\ell=\log _{2} n$} (e.east);
             %draw breadth annotation
-            \draw[decorate,decoration={brace,mirror}]
-            (g.south) -- node[below] {$T(n)=\sum_{i=1}^{\ell} 2^{i}n= n(n-1)$} (f.south);
+            \draw[decorate,decoration={brace,amplitude=10pt, mirror}]
+            (g.south) -- node[below=10pt] {$T(n)=\sum_{i=1}^{\ell} 2^{i}n$} (f.south);
+            %etc. denotation
+            \path (empty11.south) -- node[midway,fill=white] {...} (empty12.south);
+            \path (empty21.south) -- node[midway,fill=white] {...} (empty22.south);
+            \path (empty31.south) -- node[midway,fill=white] {...} (empty32.south);
         \end{forest}%
     }
     %\caption{Your caption here}
