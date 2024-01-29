@@ -206,6 +206,7 @@ We derive an exact solution to the recurrence relation.
 Karatsuba's multiplication method is given by the recurrence $T(n)=4T((n/2)+O(n)$.
 
 ![Karatsuba's Recursion Tree](/assets/img/karatsuba.png)
+![Karatsuba's Recursion Tree Annotated](/assets/img/karatsuba annotated.png)
 
 ## Credits
 These notes were compiled from various freely accessible online sources, most notably course handouts provided to students at the University of Washington, and the University of Illinois Urbana-Champaign. 
