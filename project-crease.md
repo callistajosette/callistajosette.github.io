@@ -228,7 +228,7 @@ Then we can calculate an exact solution for T(n) by substituting in the depth of
 $$ 
 \begin{align*}
 T(n) & =\sum_{i=0}^{(\log _{2} n)-1} 2^{i}n \\
-& =n*(\frac{2^{(\log _{2} n -1) +1}-1}{2-1}) \\
+& = n(\frac{2^{(\log _{2} n -1) +1}-1}{2-1}) \\
 & = n(n-1)
 \end{align*}
 $$ 
