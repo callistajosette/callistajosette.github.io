@@ -219,9 +219,13 @@ $$
 $$ 
 </center>
 
-At each level of the tree we are doing $2^{\ell}$n work, so in total, we complete $T(n)=\sum_{i=0}^{\ell - 1} 2^{i}n$ work.
+At each level of the tree we are doing $2^{\ell}$n work, and we can derive a new recurrence in terms. 
+so in total, we complete $T(n)=\sum_{i=0}^{\ell - 1} 2^{i}n$ work.
 
 ![Karatsuba's Recursion Tree Annotated](/assets/img/karatsuba annotated.png)
+
+Then we can calculate an exact solution for T(n) by substituting in the depth of our tree and evaluating the resulting expression as a geometric series:
+
 
 
 
