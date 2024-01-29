@@ -1,0 +1,43 @@
+\documentclass[border=5pt]{standalone}
+\usepackage{forest}
+
+\begin{document}
+
+\begin{forest}
+for tree={
+  parent anchor=south,
+  draw,
+  rectangle,
+  minimum size=2em,
+  s sep=2pt, % Adjust the vertical separation
+  l sep=15pt, % Adjust the horizontal separation
+},
+[$n$
+  [$n/2$
+    [$n/4$]
+    [$n/4$]
+    [$n/4$]
+    [$n/4$]
+  ]
+  [$n/2$
+    [,draw=none]
+    [,draw=none]
+    [,draw=none]
+    [,draw=none]
+  ]
+  [$n/2$
+    [,draw=none]
+    [,draw=none]
+    [,draw=none]
+    [,draw=none]
+  ]
+  [$n/2$
+    [,draw=none]
+    [,draw=none]
+    [,draw=none]
+    [,draw=none]
+  ]
+]
+\end{forest}
+
+\end{document}
