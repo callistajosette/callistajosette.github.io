@@ -40,10 +40,14 @@ td {
     border: none;
 }
 
-//gist should not take up the entire page space
+/*gist should not take up the entire page space
 .gist .blob-wrapper.data {
    max-height:200px;
    overflow:auto;
+}*/
+
+.gist .gist-data{
+    display: none !important;
 }
 
 //minimal accordion
