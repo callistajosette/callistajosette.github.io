@@ -236,6 +236,10 @@ T(n) & =\sum_{i=0}^{(\log _{2} n)-1} 2^{i}n \\
 $$ 
 </center>
 
+### Ex. 2 Longest Increasing Subsequence
+The longest increasing subsequence problem is given by the recurrence $T(n)=2T(n-1)+O(1)$ when memoization is not leveraged.
+
+
 
 
 
