@@ -239,7 +239,7 @@ $$
 ### Ex. 2 Longest Increasing Subsequence
 The longest increasing subsequence problem is given by the recurrence $T(n)=2T(n-1)+O(1)$ when memoization is not leveraged.
 
-
+![LIS Backtracking Recursion Tree](/assets/img/lis backtracking.png)
 
 
 
