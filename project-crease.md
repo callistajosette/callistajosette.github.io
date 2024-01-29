@@ -207,14 +207,14 @@ Naive Karatsuba's multiplication method is given by the recurrence $T(n)=4T((n/2
 
 ![Karatsuba's Recursion Tree](/assets/img/karatsuba.png)
 
-To find $\ell$, the height of our tree, notice that reaching $\ell$ means we have performed sufficient splits to reach a base case (we reach a subproblem consisting of only one digit). Mathematically, this is equivalent to the case where...
+To find $\ell$, the height of our tree, notice that reaching $\ell$ means we have performed sufficient splits to reach a base case (we reach a subproblem consisting of only one digit). Mathematically, this is approximately equivalent to the case where...
 <center>
 $$ 
 \begin{align*}
-\text{~} \frac{n}{2^{\ell}} & \leq 1 \\
+\frac{n}{2^{\ell}} & \leq 1 \\
 \frac{1}{2^{\ell}} & \leq \frac{1}{n} \\
 2^{\ell} & \leq n \\
-\ell & \approx \log _{2} n \\
+\text{so } \ell & \approx \log _{2} n \\
 \end{align*}
 $$ 
 </center>
