@@ -268,6 +268,15 @@ $$
       </p>
     </div>
   </div>
+    <div class="accordion-item">
+    <input type="checkbox" class="accordion-input" id="p5-2">
+    <label class="accordion-header" for="p5-2">+ $B(n)= 2B(n/4)+n$</label>
+    <div class="accordion-content">
+      <p>
+        <img src="/assets/img/more%20recursion%20trees%20a.png" alt="B(n)">       
+      </p>
+    </div>
+  </div>
 </div>
 
 
