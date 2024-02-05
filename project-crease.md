@@ -257,6 +257,20 @@ T(n) & =\sum_{i=0}^{(n)-1} 2^{i}O(1) \\
 $$ 
 </center>
 
+### More Recursion Tree Examples
+<div class="accordion">
+  <div class="accordion-item">
+    <input type="checkbox" class="accordion-input" id="p5-1">
+    <label class="accordion-header" for="p5-1">+ $A(n)= 2A(n/4)+/sqrt(n)$</label>
+    <div class="accordion-content">
+      <p>
+      ![LIS Backtracking Recursion Tree](/assets/img/lis backtracking.png)
+      </p>
+    </div>
+  </div>
+</div>
+
+
 ## Credits
 These notes were compiled from various freely accessible online sources, most notably course handouts provided to students at the University of Washington, and the University of Illinois Urbana-Champaign. 
 
