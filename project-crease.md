@@ -273,7 +273,7 @@ $$
     <label class="accordion-header" for="p5-2">+ $B(n)= 2B(n/4)+n$</label>
     <div class="accordion-content">
       <p>
-        <img src="/assets/img/more%20recursion%20trees%20a.png" alt="B(n)">       
+        <img src="/assets/img/more%20recursion%20trees%20b.png" alt="B(n)">       
       </p>
     </div>
   </div>
