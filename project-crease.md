@@ -277,6 +277,16 @@ $$
       </p>
     </div>
   </div>
+    <div class="accordion-item">
+    <input type="checkbox" class="accordion-input" id="p5-2">
+    <label class="accordion-header" for="p5-2">+ $C(n)= 2C(n/4)+n^{2}$</label>
+    <div class="accordion-content">
+      <p>
+        <img src="/assets/img/more%20recursion%20trees%20c.png" alt="C(n)">       
+      </p>
+    </div>
+  </div>
+  
 </div>
 
 
