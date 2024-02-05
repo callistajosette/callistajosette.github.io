@@ -264,7 +264,7 @@ $$
     <label class="accordion-header" for="p5-1">+ $A(n)= 2A(n/4)+/sqrt(n)$</label>
     <div class="accordion-content">
       <p>
-      ![LIS Backtracking Recursion Tree](/assets/img/lis backtracking.png)
+      ![LIS Backtracking Recursion Tree](/assets/img/more recursion trees a.png)
       </p>
     </div>
   </div>
