@@ -261,7 +261,7 @@ $$
 <div class="accordion">
   <div class="accordion-item">
     <input type="checkbox" class="accordion-input" id="p5-1">
-    <label class="accordion-header" for="p5-1">+ $A(n)= 2A(n/4)+\sqrt(n)$</label>
+    <label class="accordion-header" for="p5-1">+ $A(n)= 2A(n/4)+\sqrt{n}$</label>
     <div class="accordion-content">
       <p>
         <img src="/assets/img/more%20recursion%20trees%20a.png" alt="A(n)">       
