@@ -286,7 +286,15 @@ $$
       </p>
     </div>
   </div>
-  
+      <div class="accordion-item">
+    <input type="checkbox" class="accordion-input" id="p5-4">
+    <label class="accordion-header" for="p5-4">+ $C(n)= 3C(n/3)+\sqrt{n}$</label>
+    <div class="accordion-content">
+      <p>
+        <img src="/assets/img/more%20recursion%20trees%20d.png" alt="C(n)">       
+      </p>
+    </div>
+  </div>
 </div>
 
 
