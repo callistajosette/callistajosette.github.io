@@ -19,12 +19,19 @@
           %l sep=15pt, % Adjust the horizontal separation
         }
             [$n$,name=L1
-            [$\frac{n}{4}$
-            [$\frac{n}{16}$, name=L4]
-            [$\frac{n}{16}$]
+            [$\frac{n}{3}$
+            [$\frac{n}{9}$, name=L4]
+            [$\frac{n}{9}$]
+            [$\frac{n}{9}$]
             ]
-            [$\frac{n}{4}$, name=L2
+            [$\frac{n}{3}$
+            [,draw=none, edge=dotted, name=empty21]
+            [,draw=none, edge=dotted]
+            [,draw=none, edge=dotted, name=empty22]
+            ]
+            [$\frac{n}{3}$, name=L2
             [,draw=none, edge=dotted, name=empty31]
+            [,draw=none, edge=dotted]
             [,draw=none, , edge=dotted, name=empty32]
             ]
             ]
@@ -32,9 +39,9 @@
             \node (f) at (current bounding box.south east) {};
             \node (g) at (current bounding box.south west) {};
             %labels for tree tiers
-            \node (a) [right=of L1 -| empty32.east] {$n$};
-            \node (b) [right=of L2 -| empty32.east] {$\frac{2n}{4}$};
-            \node (c) [right=of empty32.east]       {$\frac{4n}{16}$};
+            \node (a) [right=of L1 -| empty32.east] {$\sqrt{n}$};
+            \node (b) [right=of L2 -| empty32.east] {$3\sqrt{\frac{n}{3}}$};
+            \node (c) [right=of empty32.east]       {$9\sqrt{\frac{n}{9}}$};
             %position args for recursion tree depth annotations
             \node (d) [left=of L1 -| L4.east] {};
             \node (e) [left=of L4.east] {};
@@ -43,11 +50,12 @@
             \draw[dashed,->] (L2) -- (b);
             \draw[dashed,->] (empty32) -- (c);
             %draw depth annotation
-            \draw[->] (d.east) -- node[midway,fill=white] {$\ell=\log _{4} n$} (e.east);
+            \draw[->] (d.east) -- node[midway,fill=white] {$\ell=\log _{3} n$} (e.east);
             %draw breadth annotation
             \draw[decorate,decoration={brace,amplitude=10pt, mirror}]
-            (g.south) -- node[below=10pt] {$T(n)=\sum_{i=0}^{\ell-1}\frac{n}{2^{i}}$} (f.south);
+            (g.south) -- node[below=10pt] {$T(n)=\sum_{i=0}^{\ell-1} 3^{i}\sqrt{\frac{n}{3^{i}}}$} (f.south);
             %etc. denotation
+            \path (empty21.south) -- node[midway,fill=white] {...} (empty22.south);
             \path (empty31.south) -- node[midway,fill=white] {...} (empty32.south);
         \end{forest}%
     }
