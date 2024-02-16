@@ -308,6 +308,7 @@ $$
         (\frac{3}{4})^\ell & \leq \frac{1}{n} \\
         ((\frac{3}{4})^\ell)^-1 & \leq (\frac{1}{n})^-1 \\
         (\frac{4}{3})^\ell & \geq n \\          
+        \log _{\frac{4}{3}}(\frac{4}{3})^\ell & \approx \log _{\frac{4}{3}} n \\
         \text{so } \ell & \approx \log _{\frac{4}{3}} n \\
         \end{align*}
         $$ 
