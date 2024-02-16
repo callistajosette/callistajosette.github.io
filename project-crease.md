@@ -297,7 +297,7 @@ $$
   </div>
   <div class="accordion-item">
     <input type="checkbox" class="accordion-input" id="p5-5">
-    <label class="accordion-header" for="p5-5">+ Ex. 3 Simplified Quick-Select</label>
+    <label class="accordion-header" for="p5-5">+ Ex. 3 Quick-Select w- 'Good' Pivots</label>
     <div class="accordion-content">
       <p>
         $T(n)= T(3n/4)+n$
