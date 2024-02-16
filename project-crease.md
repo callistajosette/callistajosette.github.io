@@ -300,7 +300,7 @@ $$
     <label class="accordion-header" for="p5-5">+ Ex. 3 Randomized Selection</label>
     <div class="accordion-content">
       <p>
-        Problem description available here: https://web.archive.org/web/20151007130536/https://www.cs.cmu.edu/~avrim/451f13/lectures/lect0829.pdf
+        Problem description available here: https://bit.ly/3uAGItw
         $T(n)= T(3n/4)+n$
         <img src="/assets/img/randomized%20selection.png" alt="T(n)"> 
         <center>
