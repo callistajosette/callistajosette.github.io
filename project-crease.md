@@ -297,7 +297,8 @@ $$
   </div>
   <div class="accordion-item">
     <input type="checkbox" class="accordion-input" id="p5-5">
-    <label class="accordion-header" for="p5-5">+ Simplified Quick-Select: $T(n)= T(3n/4)+n$</label>
+    <label class="accordion-header" for="p5-5">+ Simplified Quick-Select: 
+      $T(n)= T(3n/4)+n$</label>
     <div class="accordion-content">
       <p>
         <img src="/assets/img/randomized%20selection.png" alt="T(n)"> 
