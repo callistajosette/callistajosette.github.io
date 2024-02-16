@@ -300,7 +300,18 @@ $$
     <label class="accordion-header" for="p5-5">+ $T(n)= T(3n/4)+n$</label>
     <div class="accordion-content">
       <p>
-        <img src="/assets/img/randomized%20selection.png" alt="C(n)">       
+        <img src="/assets/img/randomized%20selection.png" alt="T(n)"> 
+        <center>
+        $$ 
+        \begin{align*}
+        n*(\frac{3}{4})^\ell & \leq 1 \\
+        (\frac{3}{4})^\ell & \leq \frac{1}{n} \\
+        ((\frac{3}{4})^\ell)^-1 & \leq (\frac{1}{n})^-1 \\
+        (\frac{4}{3})^\ell & \geq n \\          
+        \text{so } \ell & \approx \log _{\frac{4}{3}} n \\
+        \end{align*}
+        $$ 
+        </center>
       </p>
     </div>
   </div>
