@@ -301,7 +301,7 @@ $$
     <div class="accordion-content">
       <p>
         Problem description available here: https://bit.ly/3uAGItw
-        $$T(n)= T(3n/4)+n$$<br>
+        $$T(n)= T(3n/4)+n$$
         To find $\ell$, search for the base case, ie. when we have completed sufficient splits to reach a single element subarray (ie. selected an element). Mathematically, this is approximately equivalent to...
         <center>
         $$ 
