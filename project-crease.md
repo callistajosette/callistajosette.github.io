@@ -302,7 +302,7 @@ $$
       <p>
         Problem description available here: https://bit.ly/3uAGItw
         $$T(n)= T(3n/4)+n$$<br>
-        To find $\ell$, search for the base case, ie. when we have completed sufficient splits to reach a single element subarray (selected an element). Mathematically, this is approximately equivalent to...
+        To find $\ell$, search for the base case, ie. when we have completed sufficient splits to reach a single element subarray (ie. selected an element). Mathematically, this is approximately equivalent to...
         <center>
         $$ 
         \begin{align*}
@@ -315,6 +315,7 @@ $$
         \end{align*}
         $$ 
         </center>
+        At each level of the tree we are doing $n*(\frac{3}{4})^{\ell}$ work, and we can define a new recurrence in terms of total work completed $T(n)=\sum_{i=0}^{\ell - 1} n*(\frac{3}{4})^{i}$.
         <img src="/assets/img/randomized%20selection.png" alt="T(n)"> 
       </p>
     </div>
