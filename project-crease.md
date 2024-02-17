@@ -315,7 +315,7 @@ $$
         \end{align*}
         $$ 
         </center>
-        At each level of the tree we are doing $n*(\frac{3}{4})^{\ell}$ work, and we can define a new recurrence in terms of total work completed $T(n)=\sum_{i=0}^{\ell - 1} n*(\frac{3}{4})^{i}$.
+        At each level of the tree we are doing $n*(\frac{3}{4})^{\ell}$ work, so we can define the recurrence in terms of total work completed $T(n)=\sum_{i=0}^{\ell - 1} n*(\frac{3}{4})^{i}$.
         <img src="/assets/img/randomized%20selection.png" alt="T(n)"> 
         Then we can calculate an exact solution for T(n) by substituting in the depth of our tree and evaluating the resulting expression as a geometric series.
         <center>
