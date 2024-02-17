@@ -323,7 +323,7 @@ $$
         \begin{align*}
         T(n) & =\sum_{i=0}^{(\log _{\frac{4}{3}} n)-1} n*(\frac{3}{4})^{i} \\
         & = n\frac{\frac{3}{4}^{\log _{\frac{4}{3}} n-1+1} -1}{\frac{3}{4}-1} \\
-        & = n\frac{\frac{1}{n}-1}{-\frac{1}{4}} \\
+        & = \frac{n(\frac{1}{n}-1)}{-\frac{1}{4}} \\
         & = \frac{1-n}{-\frac{1}{4}} \\
         & = \frac{-1+n}{\frac{1}{4}} \\
         & = 4-4n
