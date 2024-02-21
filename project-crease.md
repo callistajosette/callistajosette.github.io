@@ -334,8 +334,6 @@ $$
   </div>
 </div>
 
-## Test run code result
-<iframe src="https://trinket.io/embed/python/9f4126f486?runOption=run" width="100%" height="250px" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 ## Credits
 These notes were compiled from various freely accessible online sources, most notably course handouts provided to students at the University of Washington, and the University of Illinois Urbana-Champaign. 
 
