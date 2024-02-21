@@ -40,7 +40,7 @@ td {
     border: none;
 }
 
-//gist should not take up the entire page space
+//gists should not take up the entire page space
 .gist .blob-wrapper.data {
    max-height:200px;
    overflow:auto;
@@ -50,7 +50,13 @@ td {
     display: none !important;
 }*/
 
-//minimal accordion
+//try modify trinket display sitewide
+.fa-pencil:before{
+  content: "code"; }
+}
+
+
+// minimal accordion
 .accordion {
   width: 100%;
 }
