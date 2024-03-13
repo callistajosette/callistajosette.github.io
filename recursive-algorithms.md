@@ -17,6 +17,6 @@ The Towers of Hanoi recurrence relation is given by $T(n) = 2T(n-1) + 1$
 
 
 ## Credits
-These algorithm implementations are practice problems I have completed from Jeff Erickson's book, Intro to Algorithms. 
+These algorithm implementations are practice problems I have largely collected from Jeff Erickson's book, Intro to Algorithms. Throughout my time in University, although we were often tasked to develop algorithms, I realized I had no idea how to implement any of them in any useful or meaningful way. This page documents my progress practicing full scale algorithm integration from synthesis to implementation.
 
 [back](./)
