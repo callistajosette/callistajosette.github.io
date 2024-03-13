@@ -17,7 +17,7 @@ In the great temple at Benares ...beneath the dome which marks the center of the
 <pre id="quicksort" class="pseudocode">
     % This quicksort algorithm is extracted from Chapter 7, Introduction to Algorithms (3rd edition)
     \begin{algorithm}
-    \caption{Quicksort}
+    \caption{Towers of Hanoi}
     \begin{algorithmic}
     \PROCEDURE{Quicksort}{$A, p, r$}
         \IF{$p < r$} 
@@ -41,9 +41,6 @@ In the great temple at Benares ...beneath the dome which marks the center of the
     \end{algorithmic}
     \end{algorithm}
 </pre>
-<script>
-    pseudocode.renderElement(document.getElementById("quicksort"));
-</script>
 
 ### Algorithm Implementation
 <iframe src="https://trinket.io/embed/python/623f6a05f8?runOption=run" width="100%" height="425" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
