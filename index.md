@@ -18,7 +18,7 @@ B.S., Computer Science | The University of Wisconsin Madison (_May 2023_)
 - CS 642 — Introduction to Information Security
 - CS /ECE 782 — Advanced Computer Security and Privacy
 
-<a href= "./recursive algorithms.html">📚 Wisdom Vault</a>
+<a href= "./recursive-algorithms.html">📚 Wisdom Vault</a>
 
 ## Projects
 ### LOCKDOWN: A Security Analysis of the 4th-Generation August WiFi Smart Lock
