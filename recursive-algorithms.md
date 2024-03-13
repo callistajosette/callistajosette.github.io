@@ -17,16 +17,14 @@ In the great temple at Benares ...beneath the dome which marks the center of the
 <pre id="quicksort" class="pseudocode">
 % This quicksort algorithm is extracted from Chapter 7, Introduction to Algorithms (3rd edition)
 \begin{algorithm}
-\caption{Quicksort}
 \begin{algorithmic}
-\State $i \gets 10$
-\If{$i\geq 5$} 
-    \State $i \gets i-1$
-\Else
-    \If{$i\leq 3$}
-        \State $i \gets i+2$
-    \EndIf
-\EndIf 
+\FUNCTION{Hanoi}{src, int, dst, numDisks}
+    \IF{numDisks $> 0$} 
+        \STATE \CALL{Hanoi}{src, dst, int, numDisks-1}
+\STATE move disk n from src to dst
+        \STATE \CALL{Hanoi}{int, src, dst, numDisks-1}
+    \ENDIF
+\ENDFUNCTION
 \end{algorithmic}
 \end{algorithm}
 </pre>
