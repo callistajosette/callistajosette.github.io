@@ -17,7 +17,7 @@ In the great temple at Benares ...beneath the dome which marks the center of the
 <pre id="quicksort" class="pseudocode">
     % This quicksort algorithm is extracted from Chapter 7, Introduction to Algorithms (3rd edition)
     \begin{algorithm}
-    \caption{Towers of Hanoi}
+    \caption{Quicksort}
     \begin{algorithmic}
     \PROCEDURE{Quicksort}{$A, p, r$}
         \IF{$p < r$} 
