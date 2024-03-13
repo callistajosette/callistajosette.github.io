@@ -15,7 +15,7 @@ In the great temple at Benares ...beneath the dome which marks the center of the
 
 ### Algorithm Synthesis
 <pre id="quicksort" class="pseudocode">
-% This quicksort algorithm is extracted from Chapter 7, Introduction to Algorithms (3rd edition)
+% Towers of Hanoi algorithm pseudocode
 \begin{algorithm}
 \begin{algorithmic}
 \FUNCTION{Hanoi}{src, int, dst, numDisks}
