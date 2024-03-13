@@ -8,8 +8,6 @@ layout: default
   1. Towers of Hanoi
 </p>
 
-## Description
-
 ## Towers of Hanoi
 
 ### Problem Description
