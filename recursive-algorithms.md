@@ -19,6 +19,9 @@ In the great temple at Benares ...beneath the dome which marks the center of the
     \PRINT \texttt{'hello world'}
     \end{algorithmic}
 </pre>
+<script>
+    pseudocode.renderElement(document.getElementById("hello-world-code"));
+</script>
 
 ### Algorithm Implementation
 <iframe src="https://trinket.io/embed/python/623f6a05f8?runOption=run" width="100%" height="425" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
