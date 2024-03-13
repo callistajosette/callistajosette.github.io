@@ -1,9 +1,6 @@
 ---
 layout: default
 ---
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.css">
-<script src="https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.js">
-</script>
 
 # Recursive Algorithms
 
