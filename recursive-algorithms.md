@@ -5,7 +5,7 @@ layout: default
 # Recursive Algorithms
 
 <p align="center">
-  1. <a href="https://callistajosette.github.io/recursive-algorithms.html#Towers-of-Hanoi">Towers of Hanoi</a>
+  1. <a href="#Towers%20of%20Hanoi">Towers of Hanoi</a>
 </p>
 
 ## Towers of Hanoi
