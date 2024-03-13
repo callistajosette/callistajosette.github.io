@@ -18,6 +18,6 @@ The Towers of Hanoi recurrence relation is given by $T(1) = 1$, $T(n) = 2T(n-1) 
 
 
 ## Credits
-These notes were compiled from various freely accessible online sources, most notably course handouts provided to students at the University of Washington, and the University of Illinois Urbana-Champaign. 
+These algorithm implementations are practice problems I have completed from Jeff Erickson's book, Intro to Algorithms. 
 
 [back](./)
