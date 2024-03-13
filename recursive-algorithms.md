@@ -19,9 +19,6 @@ In the great temple at Benares ...beneath the dome which marks the center of the
     \PRINT \texttt{'hello world'}
     \end{algorithmic}
 </pre>
-<script>
-    pseudocode.renderElement(document.getElementById("hello-world-code"));
-</script>
 
 ### Algorithm Implementation
 <iframe src="https://trinket.io/embed/python/623f6a05f8?runOption=run" width="100%" height="425" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
@@ -34,3 +31,7 @@ The Towers of Hanoi recurrence relation is given by $T(n) = 2T(n-1) + 1$
 These algorithm implementations are practice problems I have largely collected from Jeff Erickson's book, Algorithms. Throughout my time in University, although we were often tasked to develop algorithms, I realized I had no idea how to implement any of them in any useful or meaningful way. This page documents my progress practicing full scale algorithm integration from synthesis to implementation.
 
 [back](./)
+
+<script>
+    pseudocode.renderClass("pseudocode");
+</script>
