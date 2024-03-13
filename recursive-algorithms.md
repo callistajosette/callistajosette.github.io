@@ -6,7 +6,6 @@ layout: default
 
 <p align="center">
   1. <a href="#Towers%20of%20Hanoi">Towers of Hanoi</a>
-  2. <a href="https://callistajosette.github.io/recursive-algorithms.html#Towers%20of%20Hanoi" onclick="location.replace('https://callistajosette.github.io/recursive-algorithms.html#Towers%20of%20Hanoi'),'_top'">TOH</a>
 </p>
 
 ## Towers of Hanoi
