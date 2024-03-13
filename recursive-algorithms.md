@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Solving Recurrences
+# Recursive Algorithms
 
 <p align="center">
   1. Towers of Hanoi
