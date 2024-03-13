@@ -40,6 +40,13 @@ td {
     border: none;
 }
 
+//prettify pseudocode
+.ps-root .ps-algorithm{
+border-top:1px solid #000;
+border-bottom:1px solid #000;
+}
+
+
 //gists should not take up the entire page space
 .gist .blob-wrapper.data {
    max-height:200px;
