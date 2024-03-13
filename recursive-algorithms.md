@@ -42,7 +42,7 @@ In the great temple at Benares ...beneath the dome which marks the center of the
     \end{algorithm}
 </pre>
 <script>
-    pseudocode.renderClass("pseudocode");
+    pseudocode.renderElement(document.getElementById("quicksort"));
 </script>
 
 ### Algorithm Implementation
