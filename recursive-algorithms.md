@@ -12,6 +12,9 @@ layout: default
 
 ## Towers of Hanoi
 The Towers of Hanoi recurrence relation is given by $T(1) = 1$, $T(n) = 2T(n-1) + 1$
+
+<iframe src="https://trinket.io/embed/python/623f6a05f8?runOption=run" width="100%" height="250" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
 <center>
 $$
 \begin{align*}
