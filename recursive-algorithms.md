@@ -34,7 +34,7 @@ Pseudocode:
 <iframe src="https://trinket.io/embed/python/623f6a05f8?runOption=run" width="100%" height="425" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ### Algorithm Analysis
-The Towers of Hanoi recurrence relation is given by $T(n) = 2T(n-1) + 1$
+The Towers of Hanoi recurrence relation is given by $T(n) = 2T(n-1) + 1$. This is because we reduce the problem to 2 n-1 size problems (move the top n-1 disks to the intermediate peg, and later move those same n-1 disks to the destination peg) plus 1 additional work of moving the base. 
 
 
 ## Credits
