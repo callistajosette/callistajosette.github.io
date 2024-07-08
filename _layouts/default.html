@@ -56,15 +56,16 @@
 
     .title-overlay {
       position: absolute;
-      top: 50%;
+      top: 15%; /* Adjust as needed */
       left: 50%;
-      transform: translate(-50%, -50%);
+      transform: translateX(-50%);
       font-size: 24px; /* Adjust as needed */
       font-weight: bold;
       text-align: center;
-      color: white; /* Adjust as needed */
+      color: white; /* Make the title white */
       z-index: 1;
       pointer-events: none;
+      white-space: nowrap; /* Ensure the title stays on one line */
     }
   </style>
 
