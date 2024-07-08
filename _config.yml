@@ -2,7 +2,7 @@ title: callistajosette
 logo: /assets/img/boids.gif
 description: Software Engineer & Aspiring Security Analyst
 description: >
-  Software Engineer & Security Analyst
+  Software Engineer & Aspiring Security Analyst
   <br>
   <br>
   <a href="https://github.com/callistajosette" target="_blank">💻 Github</a>
@@ -10,6 +10,6 @@ description: >
   <a href="https://www.linkedin.com/in/callistahoxie" target="_blank">📝 LinkedIn</a>
 show_downloads: false
 google_analytics:
-theme: jekyll-theme-minimal
-plugins:
+plugins:theme: jekyll-theme-minimal
+
   - jekyll-redirect-from
