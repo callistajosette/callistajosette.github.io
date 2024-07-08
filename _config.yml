@@ -10,6 +10,6 @@ description: >
   <a href="https://www.linkedin.com/in/callistahoxie" target="_blank">📝 LinkedIn</a>
 show_downloads: false
 google_analytics:
-plugins:theme: jekyll-theme-minimal
-
+theme: jekyll-theme-minimal
+plugins:
   - jekyll-redirect-from
