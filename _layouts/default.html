@@ -34,6 +34,11 @@
       pseudocode.renderClass("pseudocode");
     </script>
 
+    <!-- Include any additional CSS here -->
+    <style>
+      /* Add any additional CSS styling for the cube if needed */
+    </style>
+
   </head>
   <body>
     <div class="wrapper">
@@ -41,21 +46,11 @@
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
         <!-- Cube Component -->
-        <div class="brand-background flex justify-center items-center">
-          <div class="grid justify-items-center gap-5">
-            <logo-main class="relative border-2 border-neutral-500 z-10">
-              <div class="logo-title pointer-events-none absolute top-0 -left-1/4 -right-1/4 text-center text-[35px] font-sans font-bold leading-8 pt-5">
-                Callista Hoxie
-              </div>
-              <img id="logo-image" class="aspect-square" src="/assets/img/boids.gif" width="200" height="200" alt="logo" preload="true">
-              <canvas id="logo-canvas" class="absolute -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 -z-10" data-src="/assets/img/boids.gif&width=500"></canvas>
-              <button class="absolute bottom-0 right-0 opacity-30 hover:opacity-100 p-0.5">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-4 h-4">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"/>
-                </svg>
-              </button>
-            </logo-main>
-          </div>
+        <div class="cube-container">
+          <logo-main class="relative border-2 border-neutral-500 z-10">
+            <img id="logo-image" class="aspect-square" src="/assets/img/boids.gif" width="200" height="200" alt="logo" preload="true">
+            <canvas id="logo-canvas" class="absolute -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 -z-10" data-src="//derschutze.com/cdn/shop/files/logo_HIGH.webp?v=1717423387&width=500"></canvas>
+          </logo-main>
         </div>
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
@@ -90,6 +85,7 @@
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <script src="//derschutze.com/cdn/shop/t/40/assets/three.bundle.js?v=114129293532938229661717679773" defer="defer"></script>
     {% if site.google_analytics %}
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
