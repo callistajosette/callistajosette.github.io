@@ -76,7 +76,7 @@
       <div class="cube-container">
         <canvas id="logo-canvas" class="cube-canvas" data-src="/assets/img/project-marching-cubes.png"></canvas>
         <div class="title-overlay">
-          <a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a>
+          {{ site.title | default: site.github.repository_name }}
         </div>
       </div>
 
