@@ -26,5 +26,5 @@ We explored various security components of the 4th generation August smart lock.
 ## Volunteering
 ### Genealogy—
 Indexing | FamilySearch (_May 2023_)
--US—City Directories, 1903–1935 [Part M]
+- US—City Directories, 1903–1935 [Part M]
 -
