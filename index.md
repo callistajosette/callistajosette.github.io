@@ -25,4 +25,4 @@ We explored various security components of the 4th generation August smart lock.
 
 ## Volunteering
 Web Indexing | FamilySearch (_Nov 2024_— )
-- US—City Directories, 1903–1935 [Part M], 200+ records
+- US—City Directories, 1903–1935 [Part M], 420+ records
