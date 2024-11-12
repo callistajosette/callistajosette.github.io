@@ -24,15 +24,6 @@ B.S., Computer Science | The University of Wisconsin Madison (_May 2023_)
 We explored various security components of the 4th generation August smart lock. Notably, we identified that August’s choice to integrate with services like Airbnb made viable a less-studied threat model – the Airbnb attacker – under which new classes of attacks were possible. Under this threat model, we identified two types of attacks that give an attacker persistent control of the lock: one that prevents the lock owner from deprovisioning the attacker’s guest access, and another that leverages several lock hardware vulnerabilities.
 
 ## Volunteering
-<div class="accordion">
-  <div class="accordion-item">
-    <input type="checkbox" class="accordion-input" id="v1-1">
-    <label class="accordion-header" for="v1-1">+ Genealogy</label>
-    <div class="accordion-content">
-      <p>
-      Indexing | FamilySearch (_Nov 2024_— )
-      - US—City Directories, 1903–1935 [Part M], 200+ records
-      </p>
-    </div>
-  </div>
-</div>
+### Genealogy
+Indexing | FamilySearch (_Nov 2024_— )
+- US—City Directories, 1903–1935 [Part M], 200+ records
