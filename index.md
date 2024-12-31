@@ -26,3 +26,8 @@ We explored various security components of the 4th generation August smart lock.
 ## Volunteering
 Web Indexing | FamilySearch (_Nov 2024_— )
 - US—City Directories, 1903–1935 [Part M], 420+ records
+
+Proofreader/Formatter/Digitization | Project Gutenberg Distributed Proofreaders (_Dec 2024_— )
+- Silver Cities of Yucatan [Part 4 of 11], 5+ pages
+  
+Animal Foster | Humane Society of Southern Wisconsin (_Jul 2020_— _Jul 2021_)
